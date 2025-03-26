@@ -1,0 +1,170 @@
+[
+	{
+		"word": "abroad",
+		"meaning": "in or to a foreign country",
+		"meaning_VN": "ở nước ngoài, ra nước ngoài",
+		"wordClass": "adverb",
+		"family": []
+	},
+	{
+		"word": "cruise",
+		"meaning": "a journey on a large ship for pleasure",
+		"meaning_VN": "chuyến du lịch trên biển",
+		"wordClass": "noun",
+		"family": ["cruiser (n)", "cruising (adj)"]
+	},
+	{
+		"word": "pack",
+		"meaning": "to put things into a bag or box",
+		"meaning_VN": "đóng gói, xếp đồ",
+		"wordClass": "verb",
+		"family": ["package (n)", "packing (n)"]
+	},
+	{
+		"word": "accommodation",
+		"meaning": "a place where you live or stay",
+		"meaning_VN": "chỗ ở, chỗ lưu trú",
+		"wordClass": "noun",
+		"family": []
+	},
+	{
+		"word": "delay",
+		"meaning": "to make something happen later",
+		"meaning_VN": "trì hoãn",
+		"wordClass": "verb, noun",
+		"family": ["delayed (adj)", "delaying (n)"]
+	},
+	{
+		"word": "passport",
+		"meaning": "an official document for traveling abroad",
+		"meaning_VN": "hộ chiếu",
+		"wordClass": "noun",
+		"family": []
+	},
+	{
+		"word": "book",
+		"meaning": "to arrange for someone to have a seat, room, etc.",
+		"meaning_VN": "đặt chỗ, đặt trước",
+		"wordClass": "verb",
+		"family": ["booking (n)"]
+	},
+	{
+		"word": "destination",
+		"meaning": "the place where someone is going",
+		"meaning_VN": "điểm đến",
+		"wordClass": "noun",
+		"family": []
+	},
+	{
+		"word": "platform",
+		"meaning": "an area where you wait for a train",
+		"meaning_VN": "sân ga",
+		"wordClass": "noun",
+		"family": []
+	},
+	{
+		"word": "break",
+		"meaning": "a short period of rest",
+		"meaning_VN": "kỳ nghỉ ngắn, sự nghỉ ngơi",
+		"wordClass": "noun",
+		"family": ["breakable (adj)", "unbroken (adj)"]
+	},
+	{
+		"word": "ferry",
+		"meaning": "a boat that carries people and goods across water",
+		"meaning_VN": "phà",
+		"wordClass": "noun",
+		"family": []
+	},
+	{
+		"word": "public transport",
+		"meaning": "buses, trains, etc. available for everyone",
+		"meaning_VN": "phương tiện giao thông công cộng",
+		"wordClass": "noun phrase",
+		"family": []
+	},
+	{
+		"word": "cancel",
+		"meaning": "to decide that something will not happen",
+		"meaning_VN": "hủy bỏ",
+		"wordClass": "verb",
+		"family": ["cancellation (n)"]
+	},
+	{
+		"word": "flight",
+		"meaning": "a journey in an aircraft",
+		"meaning_VN": "chuyến bay",
+		"wordClass": "noun",
+		"family": ["fly (v)"]
+	},
+	{
+		"word": "catch",
+		"meaning": "to get on a bus, train, or aircraft",
+		"meaning_VN": "bắt, đón (xe, tàu, máy bay)",
+		"wordClass": "verb",
+		"family": ["catcher (n)"]
+	},
+	{
+		"word": "foreign",
+		"meaning": "from another country",
+		"meaning_VN": "nước ngoài",
+		"wordClass": "adjective",
+		"family": ["foreigner (n)"]
+	},
+	{
+		"word": "reach",
+		"meaning": "to arrive at a place",
+		"meaning_VN": "đến, chạm tới",
+		"wordClass": "verb",
+		"family": []
+	},
+	{
+		"word": "resort",
+		"meaning": "a place where people go on holiday",
+		"meaning_VN": "khu nghỉ dưỡng",
+		"wordClass": "noun",
+		"family": []
+	},
+	{
+		"word": "coach",
+		"meaning": "a comfortable bus for long journeys",
+		"meaning_VN": "xe khách đường dài",
+		"wordClass": "noun",
+		"family": []
+	},
+	{
+		"word": "harbour",
+		"meaning": "a place where ships load and unload",
+		"meaning_VN": "bến cảng",
+		"wordClass": "noun",
+		"family": []
+	},
+	{
+		"word": "souvenir",
+		"meaning": "something you buy to remind you of a place",
+		"meaning_VN": "đồ lưu niệm",
+		"wordClass": "noun",
+		"family": []
+	},
+	{
+		"word": "convenient",
+		"meaning": "easy and suitable for a particular purpose",
+		"meaning_VN": "tiện lợi",
+		"wordClass": "adjective",
+		"family": ["convenience (n)"]
+	},
+	{
+		"word": "journey",
+		"meaning": "the act of traveling from one place to another",
+		"meaning_VN": "chuyến đi",
+		"wordClass": "noun",
+		"family": []
+	},
+	{
+		"word": "traffic",
+		"meaning": "the vehicles moving along a road",
+		"meaning_VN": "giao thông",
+		"wordClass": "noun",
+		"family": []
+	}
+]
