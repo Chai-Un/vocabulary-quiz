@@ -5,16 +5,15 @@ interface QuizQuestionProps {
   question: QuizQuestionType;
   onAnswer: (questionIndex: number, answer: string) => void;
   questionNumber: number;
-  totalQuestions: number;
   questionIndex: number;
   selectedAnswer?: string;
+  // Removed unused totalQuestions prop
 }
 
 const QuizQuestion = ({
   question,
   onAnswer,
   questionNumber,
-  totalQuestions,
   questionIndex,
   selectedAnswer,
 }: QuizQuestionProps) => {

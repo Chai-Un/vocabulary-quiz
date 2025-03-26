@@ -147,7 +147,6 @@ const QuizApp = ({ vocabularyData }: QuizAppProps) => {
                 key={index}
                 question={question}
                 questionNumber={index + 1}
-                totalQuestions={questions.length}
                 questionIndex={index}
                 selectedAnswer={answers[index]}
                 onAnswer={handleAnswerSelect}
