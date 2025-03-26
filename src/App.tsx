@@ -34,12 +34,23 @@ function App() {
   useEffect(() => {
     async function loadVocab() {
       try {
-        // Add base URL to fetch path for GitHub Pages
-        const response = await fetch(`${getBaseUrl()}/vocab.json`);
+        // More robust path handling for GitHub Pages
+        const vocabPath = `${import.meta.env.BASE_URL}vocab.json`;
+        console.info('Attempting to load vocab from:', vocabPath);
+
+        const response = await fetch(vocabPath);
+
         if (!response.ok) {
-          throw new Error('Failed to load vocabulary data');
+          throw new Error(`Failed to load vocabulary data (status: ${response.status})`);
         }
+
         const data = await response.json();
+
+        if (!Array.isArray(data) || data.length === 0) {
+          throw new Error('Vocabulary data is empty or in incorrect format');
+        }
+
+        console.info(`Successfully loaded ${data.length} vocabulary items`);
         setVocabulary(data);
         setLoading(false);
       } catch (err) {

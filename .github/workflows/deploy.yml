@@ -24,6 +24,17 @@ jobs:
       - name: Build 🔧
         run: npm run build
 
+      # This step ensures public files are properly copied to dist
+      - name: Check build output 🔍
+        run: |
+          echo "Checking if vocab.json exists in dist..."
+          if [ -f "dist/vocab.json" ]; then
+            echo "✅ vocab.json exists in dist folder"
+          else
+            echo "❌ vocab.json not found in dist folder"
+            exit 1
+          fi
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
