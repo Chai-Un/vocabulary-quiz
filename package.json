@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
+  "homepage": "https://chai-un.github.io/vocabulary-quiz/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -12,11 +13,12 @@
     "format:check": "prettier --check \"src/**/*.{ts,tsx,js,jsx,css,json}\"",
     "format-all": "npm run lint:fix && npm run format",
     "preview": "vite preview",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "antd": "^5.12.2",
-    "gh-pages": "^6.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

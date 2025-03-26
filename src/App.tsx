@@ -16,6 +16,16 @@ let backgroundImage: string | undefined;
   }
 })();
 
+// Get the base URL to handle GitHub Pages deployment
+const getBaseUrl = () => {
+  // In development, use root path
+  if (import.meta.env.DEV) {
+    return '';
+  }
+  // In production, use the base path from Vite config
+  return import.meta.env.BASE_URL || '';
+};
+
 function App() {
   const [vocabulary, setVocabulary] = useState<Vocabulary[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
@@ -24,7 +34,8 @@ function App() {
   useEffect(() => {
     async function loadVocab() {
       try {
-        const response = await fetch('/vocab.json');
+        // Add base URL to fetch path for GitHub Pages
+        const response = await fetch(`${getBaseUrl()}/vocab.json`);
         if (!response.ok) {
           throw new Error('Failed to load vocabulary data');
         }
@@ -32,6 +43,7 @@ function App() {
         setVocabulary(data);
         setLoading(false);
       } catch (err) {
+        console.error('Error loading vocabulary data:', err);
         setError('Failed to load vocabulary data. Please try again later.');
         setLoading(false);
       }
