@@ -5,3 +5,4 @@ coverage
 build
 *.d.ts
 vite.config.ts
+scripts

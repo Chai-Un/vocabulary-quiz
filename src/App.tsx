@@ -16,16 +16,6 @@ let backgroundImage: string | undefined;
   }
 })();
 
-// Get the base URL to handle GitHub Pages deployment
-const getBaseUrl = () => {
-  // In development, use root path
-  if (import.meta.env.DEV) {
-    return '';
-  }
-  // In production, use the base path from Vite config
-  return import.meta.env.BASE_URL || '';
-};
-
 function App() {
   const [vocabulary, setVocabulary] = useState<Vocabulary[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
