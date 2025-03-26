@@ -1,0 +1,58 @@
+/* Custom scrollbar styles */
+@mixin custom-scrollbar {
+  /* Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
+
+  /* Chrome, Edge, Safari */
+  &::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+  }
+}
+
+.hide-scrollbar {
+  /* Hide scrollbar by default for Firefox */
+  scrollbar-width: none;
+
+  /* Hide scrollbar by default for Chrome, Edge, and Safari */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.show-scrollbar-on-hover {
+  @include custom-scrollbar;
+
+  /* Firefox (unfortunately cannot be fully hidden on Firefox) */
+  scrollbar-color: transparent transparent;
+
+  /* Chrome, Edge, Safari */
+  &::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+
+  /* Show on hover */
+  &:hover {
+    /* Firefox */
+    scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
+
+    /* Chrome, Edge, Safari */
+    &::-webkit-scrollbar-thumb {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+  }
+}

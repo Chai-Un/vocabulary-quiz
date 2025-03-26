@@ -1,0 +1,212 @@
+/* Enhanced Fireworks Animation CSS */
+.pyro {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1060;
+  pointer-events: none;
+  display: none;
+
+  /* Add multiple particle layers */
+  > .before,
+  > .after {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    box-shadow: 0 0 #fff;
+    animation:
+      1s bang ease-out infinite backwards,
+      1s gravity ease-in infinite backwards,
+      5s position linear infinite backwards;
+    opacity: 0.7;
+  }
+
+  /* Add more delayed particles for depth */
+  > .after {
+    animation-delay: 1.25s, 1.25s, 1.25s;
+    animation-duration: 1.25s, 1.25s, 6.25s;
+  }
+
+  /* Extra particle layers */
+  &::before {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    box-shadow: 0 0 #fff;
+    animation:
+      1.1s bang ease-out infinite backwards,
+      1.1s gravity ease-in infinite backwards,
+      5.5s position2 linear infinite backwards;
+    opacity: 0.8;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 #fff;
+    animation:
+      0.9s bang ease-out infinite backwards,
+      0.9s gravity ease-in infinite backwards,
+      4.5s position3 linear infinite backwards;
+    opacity: 0.6;
+  }
+}
+
+/* Enhanced explosion patterns with more colors */
+@keyframes bang {
+  to {
+    box-shadow:
+      -70px -33px #ff0000,
+      56px -87px #0400ff,
+      7px -62px #00ff15,
+      85px 46px #ff00e6,
+      141px -74px #00ffb3,
+      -149px -28px #ff6700,
+      149px -32px #0040ff,
+      -37px 69px #00d5ff,
+      -20px -92px #9d00ff,
+      148px -48px #004dff,
+      141px 48px #006fff,
+      130px -93px #b700ff,
+      -88px 35px #1eff00,
+      -24px -59px #a2ff00,
+      71px -52px #00ff9d,
+      -128px -79px #00ff37,
+      -33px 59px #ff0099,
+      129px 69px #ff0037,
+      -81px -39px #00ffea,
+      21px -28px #ff8400,
+      101px 68px #0059ff,
+      -88px -38px #0004ff,
+      56px -50px #ffa600,
+      52px -19px #0095ff,
+      70px 21px #00ff33,
+      128px 80px #ff8c00,
+      139px 17px #ff9d00,
+      70px 43px #3cff00,
+      -114px -34px #a6ff00,
+      117px 60px #0095ff,
+      66px 15px #002fff,
+      35px -35px #73ff00,
+      -2px -44px #0088ff,
+      104px 14px #00ff95,
+      -65px -10px #ff00dd,
+      123px 70px #00ff88,
+      -92px 72px #0037ff,
+      139px 28px #0dff00,
+      135px -29px #0070ff,
+      -120px -55px #ffcc00,
+      86px -127px #ff00aa,
+      27px -82px #ffff00,
+      105px 66px #00ffcc,
+      161px -94px #ff5500,
+      -169px -48px #aa00ff,
+      169px -52px #ff0088,
+      -57px 89px #22ffff,
+      -40px -112px #ff77ff,
+      168px -68px #2244ff,
+      161px 68px #00aaff,
+      150px -113px #7700ff;
+  }
+}
+
+/* Enhanced gravity effect */
+@keyframes gravity {
+  to {
+    transform: translateY(250px) scale(0.8);
+    opacity: 0;
+  }
+}
+
+/* More varied position patterns */
+@keyframes position {
+  0%,
+  19.9% {
+    margin-top: 5%;
+    margin-left: 40%;
+  }
+  20%,
+  39.9% {
+    margin-top: 40%;
+    margin-left: 30%;
+  }
+  40%,
+  59.9% {
+    margin-top: 20%;
+    margin-left: 70%;
+  }
+  60%,
+  79.9% {
+    margin-top: 30%;
+    margin-left: 20%;
+  }
+  80%,
+  99.9% {
+    margin-top: 25%;
+    margin-left: 65%;
+  }
+}
+
+@keyframes position2 {
+  0%,
+  19.9% {
+    margin-top: 10%;
+    margin-left: 30%;
+  }
+  20%,
+  39.9% {
+    margin-top: 35%;
+    margin-left: 25%;
+  }
+  40%,
+  59.9% {
+    margin-top: 25%;
+    margin-left: 65%;
+  }
+  60%,
+  79.9% {
+    margin-top: 35%;
+    margin-left: 15%;
+  }
+  80%,
+  99.9% {
+    margin-top: 30%;
+    margin-left: 70%;
+  }
+}
+
+@keyframes position3 {
+  0%,
+  19.9% {
+    margin-top: 15%;
+    margin-left: 35%;
+  }
+  20%,
+  39.9% {
+    margin-top: 45%;
+    margin-left: 35%;
+  }
+  40%,
+  59.9% {
+    margin-top: 15%;
+    margin-left: 75%;
+  }
+  60%,
+  79.9% {
+    margin-top: 25%;
+    margin-left: 25%;
+  }
+  80%,
+  99.9% {
+    margin-top: 35%;
+    margin-left: 60%;
+  }
+}
