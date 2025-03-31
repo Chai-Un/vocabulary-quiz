@@ -168,7 +168,6 @@ const ResultScreen = ({ result, visible, onClose, onRetry }: ResultScreenProps) 
                       <p>Meaning: {item.meaning}</p>
                       <p>Meaning VN: {item.meaning_VN}</p>
                       <p>Family: {item.family.join(', ') || 'None'}</p>
-                      <Divider style={{ margin: '5px 0' }} />
                     </div>
                   ))}
                 </div>

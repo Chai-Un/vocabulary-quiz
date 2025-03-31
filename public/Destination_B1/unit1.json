@@ -1,0 +1,210 @@
+[{
+  "word": "beat",
+  "meaning": "to defeat or win against someone",
+  "meaning_VN": "đánh bại",
+  "wordClass": "verb",
+  "family": ["beating (n)"]
+},
+{
+  "word": "concert",
+  "meaning": "a musical performance given in public",
+  "meaning_VN": "buổi hòa nhạc",
+  "wordClass": "noun",
+  "family": []
+},
+{
+  "word": "organise",
+  "meaning": "to arrange or plan an event or activity",
+  "meaning_VN": "tổ chức",
+  "wordClass": "verb",
+  "family": ["organisation (n)", "organiser (n)"]
+},
+{
+  "word": "board game",
+  "meaning": "a game played on a special board with pieces that are moved around",
+  "meaning_VN": "trò chơi bàn cờ",
+  "wordClass": "noun phrase",
+  "family": []
+},
+{
+  "word": "defeat",
+  "meaning": "to win against someone in a fight, competition, or battle",
+  "meaning_VN": "đánh bại, thất bại",
+  "wordClass": "verb, noun",
+  "family": ["defeated (adj)"]
+},
+{
+  "word": "pleasure",
+  "meaning": "a feeling of happiness, enjoyment, or satisfaction",
+  "meaning_VN": "niềm vui thích",
+  "wordClass": "noun",
+  "family": ["pleasant (adj)", "pleasurable (adj)"]
+},
+{
+  "word": "captain",
+  "meaning": "the leader of a team or ship",
+  "meaning_VN": "đội trưởng, thuyền trưởng",
+  "wordClass": "noun",
+  "family": ["captaincy (n)"]
+},
+{
+  "word": "entertaining",
+  "meaning": "providing amusement or enjoyment",
+  "meaning_VN": "giải trí, thú vị",
+  "wordClass": "adjective",
+  "family": ["entertain (v)", "entertainment (n)"]
+},
+{
+  "word": "referee",
+  "meaning": "a person who controls a sports game and makes sure rules are followed",
+  "meaning_VN": "trọng tài",
+  "wordClass": "noun",
+  "family": ["referee (v)"]
+},
+{
+  "word": "challenge",
+  "meaning": "something that tests strength, skill, or ability",
+  "meaning_VN": "thách thức",
+  "wordClass": "verb, noun",
+  "family": ["challenging (adj)"]
+},
+{
+  "word": "folk music",
+  "meaning": "traditional music from a particular country or community",
+  "meaning_VN": "nhạc dân gian",
+  "wordClass": "noun phrase",
+  "family": []
+},
+{
+  "word": "rhythm",
+  "meaning": "a strong regular repeated pattern of sounds or movements",
+  "meaning_VN": "nhịp điệu",
+  "wordClass": "noun",
+  "family": ["rhythmic (adj)"]
+},
+{
+  "word": "champion",
+  "meaning": "a person who has won a competition",
+  "meaning_VN": "nhà vô địch",
+  "wordClass": "noun",
+  "family": ["championship (n)"]
+},
+{
+  "word": "group",
+  "meaning": "a number of people or things that are together",
+  "meaning_VN": "nhóm",
+  "wordClass": "noun",
+  "family": ["group (v)", "grouping (n)"]
+},
+{
+  "word": "risk",
+  "meaning": "the possibility of something bad happening",
+  "meaning_VN": "rủi ro",
+  "wordClass": "verb, noun",
+  "family": ["risky (adj)"]
+},
+{
+  "word": "cheat",
+  "meaning": "to act dishonestly to gain an advantage",
+  "meaning_VN": "gian lận",
+  "wordClass": "verb",
+  "family": ["cheater (n)", "cheating (n)"]
+},
+{
+  "word": "gym",
+  "meaning": "a place with equipment for physical exercise",
+  "meaning_VN": "phòng tập thể dục",
+  "wordClass": "noun",
+  "family": ["gymnasium (n)"]
+},
+{
+  "word": "score",
+  "meaning": "to gain points in a game or competition",
+  "meaning_VN": "ghi điểm, tính điểm",
+  "wordClass": "verb, noun",
+  "family": ["scorer (n)"]
+},
+{
+  "word": "classical music",
+  "meaning": "serious music following long-established principles",
+  "meaning_VN": "nhạc cổ điển",
+  "wordClass": "noun phrase",
+  "family": []
+},
+{
+  "word": "have fun",
+  "meaning": "to enjoy oneself",
+  "meaning_VN": "vui vẻ",
+  "wordClass": "verb phrase",
+  "family": []
+},
+{
+  "word": "support",
+  "meaning": "to help or encourage someone or something",
+  "meaning_VN": "ủng hộ, hỗ trợ",
+  "wordClass": "verb, noun",
+  "family": ["supporter (n)", "supportive (adj)"]
+},
+{
+  "word": "club",
+  "meaning": "an organization of people with a common interest or purpose",
+  "meaning_VN": "câu lạc bộ",
+  "wordClass": "noun",
+  "family": []
+},
+{
+  "word": "interest",
+  "meaning": "a feeling of wanting to know about or take part in something",
+  "meaning_VN": "sự quan tâm",
+  "wordClass": "verb, noun",
+  "family": ["interested (adj)", "interesting (adj)"]
+},
+{
+  "word": "team",
+  "meaning": "a group of players forming one side in a game",
+  "meaning_VN": "đội",
+  "wordClass": "noun",
+  "family": ["teammate (n)"]
+},
+{
+  "word": "coach",
+  "meaning": "a person who trains a person or team in sport",
+  "meaning_VN": "huấn luyện viên",
+  "wordClass": "noun",
+  "family": ["coach (v)", "coaching (n)"]
+},
+{
+  "word": "member",
+  "meaning": "a person belonging to a group or organization",
+  "meaning_VN": "thành viên",
+  "wordClass": "noun",
+  "family": ["membership (n)"]
+},
+{
+  "word": "train",
+  "meaning": "to practice for a sport or activity",
+  "meaning_VN": "rèn luyện, tập luyện",
+  "wordClass": "verb",
+  "family": ["trainer (n)", "training (n)"]
+},
+{
+  "word": "competition",
+  "meaning": "an event in which people compete to win",
+  "meaning_VN": "cuộc thi đấu",
+  "wordClass": "noun",
+  "family": ["competitive (adj)", "competitor (n)"]
+},
+{
+  "word": "opponent",
+  "meaning": "a person who competes against you in a contest",
+  "meaning_VN": "đối thủ",
+  "wordClass": "noun",
+  "family": ["opposition (n)"]
+},
+{
+  "word": "video game",
+  "meaning": "a game played on a computer or special machine",
+  "meaning_VN": "trò chơi điện tử",
+  "wordClass": "noun phrase",
+  "family": []
+}]

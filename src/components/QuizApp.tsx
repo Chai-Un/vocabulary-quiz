@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Button, Input, Modal } from 'antd';
+import { HomeOutlined } from '@ant-design/icons';
 import { generateQuizQuestions, calculateScore } from '../utils/quizHelpers';
 import { QuizQuestion as QuizQuestionType, QuizResult, Vocabulary } from '../types';
 import Header from './Header';
@@ -8,9 +9,10 @@ import ResultScreen from './ResultScreen';
 
 interface QuizAppProps {
   vocabularyData: Vocabulary[];
+  onReturnHome: () => void;
 }
 
-const QuizApp = ({ vocabularyData }: QuizAppProps) => {
+const QuizApp = ({ vocabularyData, onReturnHome }: QuizAppProps) => {
   const [questionCount, setQuestionCount] = useState<number>(10);
   const [questions, setQuestions] = useState<QuizQuestionType[]>([]);
   const [answers, setAnswers] = useState<Record<number, string>>({});
@@ -114,6 +116,12 @@ const QuizApp = ({ vocabularyData }: QuizAppProps) => {
 
   return (
     <div className="container mx-auto px-4">
+      <div className="flex justify-between items-center">
+        <Button icon={<HomeOutlined />} onClick={onReturnHome} className="mb-4">
+          Return to Home
+        </Button>
+      </div>
+
       <Header />
 
       {!quizStarted ? (

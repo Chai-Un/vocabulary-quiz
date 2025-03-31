@@ -1,10 +1,11 @@
 import { useState, useEffect } from 'react';
-import { ConfigProvider, Spin } from 'antd';
+import { ConfigProvider, Spin, Button } from 'antd';
 import QuizApp from './components/QuizApp';
+import HomePage, { QuizOptions } from './components/HomePage';
 import { Vocabulary } from './types';
+import themeConfig from './theme/themeConfig';
 
 // Try to import background image, but don't fail if it doesn't exist
-// You can add your own background.png in the src/assets/images folder
 let backgroundImage: string | undefined;
 (async () => {
   try {
@@ -18,68 +19,138 @@ let backgroundImage: string | undefined;
 
 function App() {
   const [vocabulary, setVocabulary] = useState<Vocabulary[]>([]);
-  const [loading, setLoading] = useState<boolean>(true);
+  const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string>('');
+  const [currentView, setCurrentView] = useState<'home' | 'quiz'>('home');
+  const [quizOptions, setQuizOptions] = useState<QuizOptions | null>(null);
 
-  useEffect(() => {
-    async function loadVocab() {
-      try {
-        // More robust path handling for GitHub Pages
-        const vocabPath = `${import.meta.env.BASE_URL}vocab.json`;
-        console.info('Attempting to load vocab from:', vocabPath);
+  // Function to start the quiz
+  const handleStartQuiz = (options: QuizOptions) => {
+    setQuizOptions(options);
+    setLoading(true);
+    setCurrentView('quiz');
+    loadVocabularyData(options);
+  };
 
-        const response = await fetch(vocabPath);
+  // Function to return to home
+  const handleReturnHome = () => {
+    setCurrentView('home');
+    setVocabulary([]);
+  };
 
-        if (!response.ok) {
-          throw new Error(`Failed to load vocabulary data (status: ${response.status})`);
-        }
+  // Load vocabulary data based on selected options
+  const loadVocabularyData = async (options: QuizOptions) => {
+    try {
+      setLoading(true);
+      setError('');
 
-        const data = await response.json();
+      let dataPath = '';
 
-        if (!Array.isArray(data) || data.length === 0) {
-          throw new Error('Vocabulary data is empty or in incorrect format');
-        }
-
-        console.info(`Successfully loaded ${data.length} vocabulary items`);
-        setVocabulary(data);
-        setLoading(false);
-      } catch (err) {
-        console.error('Error loading vocabulary data:', err);
-        setError('Failed to load vocabulary data. Please try again later.');
-        setLoading(false);
+      switch (options.type) {
+        case 'vocabulary':
+          // For vocabulary, select the appropriate source
+          if (options.source) {
+            // Check for specific unit files within source folders
+            const unitFiles = await fetchSourceUnitList(options.source);
+            if (unitFiles && unitFiles.length > 0) {
+              // Select a random unit file from the source
+              const randomUnit = unitFiles[Math.floor(Math.random() * unitFiles.length)];
+              dataPath = `${import.meta.env.BASE_URL}${options.source}/${randomUnit}`;
+            } else {
+              // Fallback to the main source file
+              dataPath = `${import.meta.env.BASE_URL}${options.source}.json`;
+            }
+          } else {
+            // Fallback to main vocab file
+            dataPath = `${import.meta.env.BASE_URL}vocab.json`;
+          }
+          break;
+        case 'phrasal-verb':
+          dataPath = `${import.meta.env.BASE_URL}phrasal_verb.json`;
+          break;
+        case 'prepositional-phrase':
+          dataPath = `${import.meta.env.BASE_URL}prepositional_phrase.json`;
+          break;
+        default:
+          dataPath = `${import.meta.env.BASE_URL}vocab.json`;
       }
+
+      console.info('Loading vocabulary data from:', dataPath);
+      const response = await fetch(dataPath);
+
+      if (!response.ok) {
+        throw new Error(`Failed to load data (status: ${response.status})`);
+      }
+
+      const data = await response.json();
+
+      if (!Array.isArray(data) || data.length === 0) {
+        throw new Error('Data is empty or in incorrect format');
+      }
+
+      console.info(`Successfully loaded ${data.length} items`);
+      setVocabulary(data);
+    } catch (err) {
+      console.error('Error loading data:', err);
+      setError('Failed to load data. Please try again later.');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  // Function to fetch available unit files within a source folder
+  const fetchSourceUnitList = async (source: string): Promise<string[]> => {
+    try {
+      // Try to fetch a manifest file listing all available units
+      const manifestPath = `${import.meta.env.BASE_URL}${source}/manifest.json`;
+      const response = await fetch(manifestPath);
+
+      if (response.ok) {
+        const manifest = await response.json();
+        return manifest.units || [];
+      }
+
+      // If no manifest, return empty array (will fallback to source.json)
+      return [];
+    } catch (error) {
+      console.warn(`No manifest found for ${source}, will use default file`);
+      return [];
+    }
+  };
+
+  // Render appropriate view
+  const renderContent = () => {
+    if (loading) {
+      return (
+        <div className="min-h-screen flex items-center justify-center">
+          <Spin size="large" tip="Loading data..." />
+        </div>
+      );
     }
 
-    loadVocab();
-  }, []);
-
-  if (loading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <Spin size="large" tip="Loading vocabulary data..." />
-      </div>
-    );
-  }
-
-  if (error) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-center text-red-600">
-          <h2 className="text-xl font-bold">Error</h2>
-          <p>{error}</p>
+    if (error) {
+      return (
+        <div className="min-h-screen flex items-center justify-center">
+          <div className="text-center text-red-600">
+            <h2 className="text-xl font-bold">Error</h2>
+            <p>{error}</p>
+            <Button type="primary" onClick={handleReturnHome} className="mt-4">
+              Return to Home
+            </Button>
+          </div>
         </div>
-      </div>
-    );
-  }
+      );
+    }
+
+    if (currentView === 'home') {
+      return <HomePage onStartQuiz={handleStartQuiz} />;
+    }
+
+    return <QuizApp vocabularyData={vocabulary} onReturnHome={handleReturnHome} />;
+  };
 
   return (
-    <ConfigProvider
-      theme={{
-        token: {
-          colorPrimary: '#1677ff',
-        },
-      }}
-    >
+    <ConfigProvider theme={themeConfig}>
       <div
         className="min-h-screen p-5 bg-app"
         style={
@@ -96,7 +167,7 @@ function App() {
               }
         }
       >
-        <QuizApp vocabularyData={vocabulary} />
+        {renderContent()}
       </div>
     </ConfigProvider>
   );

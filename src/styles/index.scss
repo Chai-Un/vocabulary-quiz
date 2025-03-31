@@ -2,20 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-// Variables
-$color-primary: #1677ff;
-$color-success: #52c41a;
-$color-warning: #faad14;
-$color-danger: #ff4d4f;
-$color-white: rgba(255, 255, 255, 0.9);
-$color-light-hover: rgba(248, 249, 255, 0.95);
-$color-success-bg: rgba(182, 212, 168, 0.9);
+// Import the colors from the centralized file
+@import './colors';
 
-// Cartoon font variables
+// Variables
+// Font variables
 $font-cartoon-primary: 'Bubblegum Sans', cursive;
 $font-cartoon-secondary: 'Comic Neue', cursive;
 
 @import './scrollbars';
+@import './fireworks';
 
 body {
   margin: 0;
@@ -48,6 +44,83 @@ body {
   background-color: rgba(255, 255, 255, 0.85);
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+  // Override width for home page
+  &.max-w-4xl {
+    max-width: 900px;
+    background-color: rgba(255, 255, 255, 0.8); // Slightly more transparent
+    margin: 2rem auto; // Add some margin to see more of the background
+  }
+}
+
+/* Quiz Type Card Styling */
+.quiz-type-card {
+  height: 100%;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+
+  // Selected card state
+  &.selected-card {
+    border-color: #f759ab;
+    background-color: rgb(247 89 171 / 39%);
+  }
+
+  // Card body styling
+  .anticon {
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+  }
+
+  &:hover .anticon {
+    transform: scale(1.1);
+  }
+
+  // Card title
+  h4.ant-typography {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: $font-cartoon-primary;
+    font-size: 24px;
+  }
+
+  // Card text
+  .ant-typography {
+    font-family: $font-cartoon-secondary;
+  }
+}
+
+/* Source selection styling */
+.vocabulary-sources {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+
+  h4.ant-typography {
+    font-family: $font-cartoon-primary;
+    color: #333;
+    margin-bottom: 15px;
+  }
+
+  .ant-radio-wrapper {
+    margin-bottom: 10px;
+    font-family: $font-cartoon-secondary;
+    font-size: 16px;
+
+    .ant-radio-inner::after {
+      background-color: $color-primary;
+    }
+
+    &:hover .ant-radio-inner {
+      border-color: $color-primary;
+    }
+  }
 }
 
 .question-count-label {
@@ -325,7 +398,6 @@ body {
   height: 400px;
   overflow-y: auto;
   scrollbar-gutter: stable;
-  padding-right: 10px;
   border: 1px solid #f0f0f0;
   border-radius: 4px;
   background-color: #fafafa;
@@ -375,7 +447,18 @@ body {
   .answers-list {
     height: 200px;
   }
-}
 
-/* Fireworks Animation */
-@import './fireworks';
+  .quiz-title {
+    font-size: 36px;
+    padding: 10px 20px;
+  }
+
+  // Homepage responsive adjustments
+  .quiz-setup.max-w-4xl {
+    padding: 15px;
+  }
+
+  .quiz-type-card {
+    margin-bottom: 10px;
+  }
+}
