@@ -1,5 +1,5 @@
 /* eslint-disable no-case-declarations */
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { ConfigProvider, Spin, Button } from 'antd';
 import QuizApp from './components/QuizApp';
 import HomePage, { QuizOptions } from './components/HomePage';
@@ -23,11 +23,9 @@ function App() {
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string>('');
   const [currentView, setCurrentView] = useState<'home' | 'quiz'>('home');
-  const [quizOptions, setQuizOptions] = useState<QuizOptions | null>(null);
 
   // Function to start the quiz
   const handleStartQuiz = (options: QuizOptions) => {
-    setQuizOptions(options);
     setLoading(true);
     setCurrentView('quiz');
     loadVocabularyData(options);
@@ -214,7 +212,7 @@ function App() {
   const fetchSourceUnitList = async (source: string): Promise<string[]> => {
     try {
       // Directly look for unit files since we don't have manifest.json
-      const unitFiles = [];
+      const unitFiles: string[] | PromiseLike<string[]> = [];
 
       // Use common unit file pattern detection
       const maxUnitsToCheck = 20; // Reasonable maximum to check
