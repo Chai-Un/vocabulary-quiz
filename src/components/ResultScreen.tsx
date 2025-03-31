@@ -77,6 +77,7 @@ const ResultScreen = ({ result, visible, onClose, onRetry }: ResultScreenProps) 
           </Title>
         }
         className="results-modal"
+        centered={true}
       >
         {/* Compact top section with results */}
         <Row gutter={16} className="results-container">

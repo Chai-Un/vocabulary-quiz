@@ -254,6 +254,8 @@ body {
 
   .ant-modal-body {
     padding: 16px;
+    overflow-y: auto;
+    max-height: calc(100vh - 250px); /* Limit height to prevent overflow */
   }
 
   /* Quiz result title - use cartoon font */
@@ -262,6 +264,13 @@ body {
       font-family: $font-cartoon-secondary !important;
       font-weight: 700;
     }
+  }
+
+  /* Fix modal positioning */
+  &.ant-modal {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
   }
 }
 
