@@ -18,9 +18,10 @@ export interface QuizQuestion {
 
 export interface QuizResult {
   totalQuestions: number;
-  correctAnswers: number;
+  totalCorrectAnswer: number;
   wrongAnswers: number;
   score: number;
+  correctAnswers: Vocabulary[];
   incorrectAnswers: Vocabulary[];
   unansweredQuestions: Vocabulary[];
 }

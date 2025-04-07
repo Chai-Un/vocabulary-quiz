@@ -51,6 +51,30 @@ const ResultScreen = ({ result, visible, onClose, onRetry }: ResultScreenProps) 
     onClose();
   };
 
+  // Calculate how many sections have content to display
+  const getVisibleSections = () => {
+    let count = 0;
+    if (result.totalCorrectAnswer > 0) count++;
+    if (result.incorrectAnswers.length > 0) count++;
+    if (result.unansweredQuestions.length > 0) count++;
+    return count;
+  };
+
+  // Determine column widths based on visible sections
+  const getColumnSpans = () => {
+    const visibleSections = getVisibleSections();
+    switch (visibleSections) {
+      case 1:
+        return { xs: 24, md: 24, xl: 24 }; // Full width
+      case 2:
+        return { xs: 24, md: 24, xl: 12 }; // Half width on xl, full on smaller
+      default:
+        return { xs: 24, md: 12, xl: 8 }; // Original widths
+    }
+  };
+
+  const columnSpans = getColumnSpans();
+
   return (
     <>
       {/* Fireworks container */}
@@ -70,7 +94,7 @@ const ResultScreen = ({ result, visible, onClose, onRetry }: ResultScreenProps) 
             Close
           </Button>,
         ]}
-        width={1000} // Keep width large
+        width="85vw"
         title={
           <Title level={4} className="m-0">
             Quiz Results
@@ -111,7 +135,7 @@ const ResultScreen = ({ result, visible, onClose, onRetry }: ResultScreenProps) 
                   <div className="score-label">Total Questions</div>
                 </div>
                 <div className="score-box correct-answers">
-                  <div className="score-number">{result.correctAnswers}</div>
+                  <div className="score-number">{result.totalCorrectAnswer}</div>
                   <div className="score-label">Correct Answers</div>
                 </div>
               </div>
@@ -121,21 +145,21 @@ const ResultScreen = ({ result, visible, onClose, onRetry }: ResultScreenProps) 
 
         <Divider style={{ margin: '10px 0' }} />
 
-        {/* Increased height for lists */}
         <Row gutter={16} className="lists-container">
-          <Col xs={24} md={12} className="incorrect-answers-col">
-            {result.incorrectAnswers.length > 0 && (
+          <Col
+            xs={columnSpans.xs}
+            md={columnSpans.md}
+            xl={columnSpans.xl}
+            className="correct-answers-col"
+          >
+            {result.totalCorrectAnswer > 0 && (
               <div className="answers-section">
-                <Title level={5} className="section-title text-danger">
-                  Incorrect Answers
+                <Title level={5} className="section-title text-success">
+                  Correct Answers
                 </Title>
-                <div
-                  className="answers-list"
-                  aria-label="Incorrect answers list"
-                  tabIndex={0} // Make it focusable for better accessibility
-                >
-                  {result.incorrectAnswers.map((item, index) => (
-                    <div key={`incorrect-${index}`} className="answer-item">
+                <div className="answers-list" aria-label="Correct answers list">
+                  {result.correctAnswers.map((item, index) => (
+                    <div key={`correct-${index}`} className="answer-item">
                       <p>
                         <strong>{item.word}</strong> ({item.wordClass})
                       </p>
@@ -149,18 +173,46 @@ const ResultScreen = ({ result, visible, onClose, onRetry }: ResultScreenProps) 
               </div>
             )}
           </Col>
+          {result.incorrectAnswers.length > 0 && (
+            <Col
+              xs={columnSpans.xs}
+              md={columnSpans.md}
+              xl={columnSpans.xl}
+              className="incorrect-answers-col"
+            >
+              <div className="answers-section">
+                <Title level={5} className="section-title text-danger">
+                  Incorrect Answers
+                </Title>
+                <div className="answers-list" aria-label="Incorrect answers list">
+                  {result.incorrectAnswers.map((item, index) => (
+                    <div key={`incorrect-${index}`} className="answer-item">
+                      <p>
+                        <strong>{item.word}</strong> ({item.wordClass})
+                      </p>
+                      <p>Meaning: {item.meaning}</p>
+                      <p>Meaning VN: {item.meaning_VN}</p>
+                      <p>Family: {item.family.join(', ') || 'None'}</p>
+                      <Divider style={{ margin: '5px 0' }} />
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </Col>
+          )}
 
-          <Col xs={24} md={12} className="unanswered-questions-col">
-            {result.unansweredQuestions.length > 0 && (
+          {result.unansweredQuestions.length > 0 && (
+            <Col
+              xs={columnSpans.xs}
+              md={columnSpans.md}
+              xl={columnSpans.xl}
+              className="unanswered-questions-col"
+            >
               <div className="answers-section">
                 <Title level={5} className="section-title text-warning">
                   Unanswered Questions
                 </Title>
-                <div
-                  className="answers-list"
-                  aria-label="Unanswered questions list"
-                  tabIndex={0} // Make it focusable for better accessibility
-                >
+                <div className="answers-list" aria-label="Unanswered questions list">
                   {result.unansweredQuestions.map((item, index) => (
                     <div key={`unanswered-${index}`} className="answer-item">
                       <p>
@@ -173,8 +225,8 @@ const ResultScreen = ({ result, visible, onClose, onRetry }: ResultScreenProps) 
                   ))}
                 </div>
               </div>
-            )}
-          </Col>
+            </Col>
+          )}
         </Row>
       </Modal>
     </>
