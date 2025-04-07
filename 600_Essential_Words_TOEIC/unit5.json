@@ -1,0 +1,86 @@
+[
+  {
+    "word": "accommodate",
+    "meaning": "to provide someone with a place to live or stay; to make enough space for someone",
+    "meaning_VN": "cung cấp chỗ ở; đáp ứng",
+    "wordClass": "verb",
+    "family": ["accommodates", "accommodating", "accommodated", "accommodation (n)", "accommodative (adj)"]
+  },
+  {
+    "word": "arrangement",
+    "meaning": "a plan or preparation for how something will happen",
+    "meaning_VN": "sự sắp xếp, bố trí",
+    "wordClass": "noun",
+    "family": ["arrange (v)", "arranging", "arranged", "arranger (n)"]
+  },
+  {
+    "word": "association",
+    "meaning": "a group of people who have joined together for a particular purpose; a connection between things",
+    "meaning_VN": "hiệp hội; sự liên kết",
+    "wordClass": "noun",
+    "family": ["associate (v)", "associate (n)", "associative (adj)", "associated (adj)"]
+  },
+  {
+    "word": "attend",
+    "meaning": "to be present at an event",
+    "meaning_VN": "tham dự, có mặt",
+    "wordClass": "verb",
+    "family": ["attends", "attending", "attended", "attendance (n)", "attendee (n)"]
+  },
+  {
+    "word": "get in touch",
+    "meaning": "to contact someone",
+    "meaning_VN": "liên lạc với ai",
+    "wordClass": "phrasal verb",
+    "family": ["getting in touch", "gets in touch", "got in touch"]
+  },
+  {
+    "word": "hold",
+    "meaning": "to organize and provide a space for an event",
+    "meaning_VN": "tổ chức (sự kiện)",
+    "wordClass": "verb",
+    "family": ["holds", "holding", "held", "holder (n)"]
+  },
+  {
+    "word": "location",
+    "meaning": "a place or position where something is or could be situated",
+    "meaning_VN": "địa điểm, vị trí",
+    "wordClass": "noun",
+    "family": ["locate (v)", "locating", "located", "locational (adj)"]
+  },
+  {
+    "word": "overcrowded",
+    "meaning": "filled with too many people or things",
+    "meaning_VN": "quá đông, quá tải",
+    "wordClass": "adjective",
+    "family": ["overcrowd (v)", "overcrowding (n)", "crowd (n)"]
+  },
+  {
+    "word": "register",
+    "meaning": "to record one's name on an official list",
+    "meaning_VN": "đăng ký",
+    "wordClass": "verb",
+    "family": ["registers", "registering", "registered", "registration (n)", "registrant (n)"]
+  },
+  {
+    "word": "select",
+    "meaning": "to choose something or someone by making a careful decision",
+    "meaning_VN": "lựa chọn, tuyển chọn",
+    "wordClass": "verb",
+    "family": ["selects", "selecting", "selected", "selection (n)", "selective (adj)"]
+  },
+  {
+    "word": "session",
+    "meaning": "a period of time arranged for a particular activity",
+    "meaning_VN": "phiên họp, buổi học",
+    "wordClass": "noun",
+    "family": ["sessions", "sessional (adj)"]
+  },
+  {
+    "word": "take part in",
+    "meaning": "to be involved in an activity with others",
+    "meaning_VN": "tham gia vào",
+    "wordClass": "phrasal verb",
+    "family": ["taking part in", "takes part in", "took part in", "participation (n)", "participant (n)"]
+  }
+]

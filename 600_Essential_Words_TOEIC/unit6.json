@@ -1,0 +1,86 @@
+[
+  {
+    "word": "access",
+    "meaning": "the right or opportunity to use or look at something",
+    "meaning_VN": "quyền truy cập, sự tiếp cận",
+    "wordClass": "verb, noun",
+    "family": ["accesses", "accessing", "accessed", "accessible (adj)", "accessibility (n)"]
+  },
+  {
+    "word": "allocate",
+    "meaning": "to give something to someone as their share of a total resource",
+    "meaning_VN": "phân bổ, phân phối",
+    "wordClass": "verb",
+    "family": ["allocates", "allocating", "allocated", "allocation (n)"]
+  },
+  {
+    "word": "compatible",
+    "meaning": "able to exist or work successfully together",
+    "meaning_VN": "tương thích",
+    "wordClass": "adjective",
+    "family": ["compatibility (n)", "incompatible (adj)", "compatibly (adv)"]
+  },
+  {
+    "word": "delete",
+    "meaning": "to remove something, especially information stored in a computer system",
+    "meaning_VN": "xóa",
+    "wordClass": "verb",
+    "family": ["deletes", "deleting", "deleted", "deletion (n)"]
+  },
+  {
+    "word": "display",
+    "meaning": "to put something where people can see it, or to show information on a computer screen",
+    "meaning_VN": "hiển thị, trình bày",
+    "wordClass": "verb, noun",
+    "family": ["displays", "displaying", "displayed"]
+  },
+  {
+    "word": "duplicate",
+    "meaning": "to make an exact copy of something",
+    "meaning_VN": "sao chép, nhân bản",
+    "wordClass": "verb, adjective",
+    "family": ["duplicates", "duplicating", "duplicated", "duplication (n)"]
+  },
+  {
+    "word": "failure",
+    "meaning": "lack of success in doing or achieving something",
+    "meaning_VN": "thất bại, hỏng hóc",
+    "wordClass": "noun",
+    "family": ["fail (v)", "failing (n)", "failed (adj)"]
+  },
+  {
+    "word": "figure out",
+    "meaning": "to understand or solve something by thinking",
+    "meaning_VN": "tìm ra, hiểu",
+    "wordClass": "phrasal verb",
+    "family": ["figures out", "figuring out", "figured out"]
+  },
+  {
+    "word": "ignore",
+    "meaning": "to pay no attention to something or someone",
+    "meaning_VN": "bỏ qua, lờ đi",
+    "wordClass": "verb",
+    "family": ["ignores", "ignoring", "ignored", "ignorable (adj)"]
+  },
+  {
+    "word": "search",
+    "meaning": "to look carefully for something",
+    "meaning_VN": "tìm kiếm",
+    "wordClass": "verb, noun",
+    "family": ["searches", "searching", "searched", "searchable (adj)"]
+  },
+  {
+    "word": "shut down",
+    "meaning": "to stop a computer or machine from operating; to close a business or organization",
+    "meaning_VN": "tắt máy, đóng cửa",
+    "wordClass": "phrasal verb",
+    "family": ["shuts down", "shutting down", "shut down", "shutdown (n)"]
+  },
+  {
+    "word": "warning",
+    "meaning": "something that tells or shows you that something bad may happen",
+    "meaning_VN": "cảnh báo",
+    "wordClass": "noun",
+    "family": ["warn (v)", "warned", "warnings"]
+  }
+]

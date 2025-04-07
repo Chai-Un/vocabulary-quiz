@@ -1,0 +1,86 @@
+[
+  {
+    "word": "characteristic",
+    "meaning": "a typical feature or quality that identifies a person or thing",
+    "meaning_VN": "đặc điểm, đặc tính",
+    "wordClass": "noun, adjective",
+    "family": ["characterize (v)", "characteristic (n/adj)", "characteristically (adv)"]
+  },
+  {
+    "word": "consequence",
+    "meaning": "a result of a particular action or situation, often one that is negative",
+    "meaning_VN": "hậu quả, kết quả",
+    "wordClass": "noun",
+    "family": ["consequent (adj)", "consequently (adv)", "consequential (adj)"]
+  },
+  {
+    "word": "consider",
+    "meaning": "to think carefully about something before making a decision",
+    "meaning_VN": "xem xét, cân nhắc",
+    "wordClass": "verb",
+    "family": ["considers", "considering", "considered", "consideration (n)", "considerable (adj)"]
+  },
+  {
+    "word": "cover",
+    "meaning": "to put or spread something over something else; to deal with a subject or include particular information",
+    "meaning_VN": "bao phủ, đề cập đến",
+    "wordClass": "verb, noun",
+    "family": ["covering (n)", "covered (adj)", "coverage (n)"]
+  },
+  {
+    "word": "expiration",
+    "meaning": "the end of a period of time when an official document or agreement stops being valid",
+    "meaning_VN": "sự hết hạn",
+    "wordClass": "noun",
+    "family": ["expire (v)", "expiry (n)", "expired (adj)"]
+  },
+  {
+    "word": "frequently",
+    "meaning": "often or regularly",
+    "meaning_VN": "thường xuyên",
+    "wordClass": "adverb",
+    "family": ["frequent (adj)", "frequency (n)", "infrequent (adj)"]
+  },
+  {
+    "word": "imply",
+    "meaning": "to suggest something without saying it directly",
+    "meaning_VN": "ngụ ý, ẩn ý",
+    "wordClass": "verb",
+    "family": ["implies", "implying", "implied", "implication (n)"]
+  },
+  {
+    "word": "promise",
+    "meaning": "to tell someone that you will definitely do or provide something",
+    "meaning_VN": "hứa hẹn",
+    "wordClass": "verb, noun",
+    "family": ["promising (adj)", "promised", "promissory (adj)"]
+  },
+  {
+    "word": "protect",
+    "meaning": "to keep someone or something safe from harm or damage",
+    "meaning_VN": "bảo vệ",
+    "wordClass": "verb",
+    "family": ["protects", "protecting", "protected", "protection (n)", "protective (adj)"]
+  },
+  {
+    "word": "reputation",
+    "meaning": "the opinion that people have about how good or bad someone or something is",
+    "meaning_VN": "danh tiếng, uy tín",
+    "wordClass": "noun",
+    "family": ["repute (n)", "reputable (adj)", "disrepute (n)"]
+  },
+  {
+    "word": "require",
+    "meaning": "to need something; to make something necessary",
+    "meaning_VN": "đòi hỏi, yêu cầu",
+    "wordClass": "verb",
+    "family": ["requires", "requiring", "required", "requirement (n)"]
+  },
+  {
+    "word": "variety",
+    "meaning": "a number or range of different things of the same general class",
+    "meaning_VN": "sự đa dạng, nhiều loại",
+    "wordClass": "noun",
+    "family": ["various (adj)", "vary (v)", "varietal (adj)", "variability (n)"]
+  }
+]

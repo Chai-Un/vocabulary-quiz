@@ -1,0 +1,212 @@
+[
+  {
+    "word": "bored with",
+    "meaning": "feeling tired and impatient because you have lost interest in something",
+    "meaning_VN": "chán với",
+    "wordClass": "adjective + preposition",
+    "family": ["boredom (n)", "boring (adj)"]
+  },
+  {
+    "word": "feel like",
+    "meaning": "to have a desire or inclination for something",
+    "meaning_VN": "cảm thấy muốn",
+    "wordClass": "verb + preposition",
+    "family": ["feeling (n)", "feels like (v)", "felt like (v)"]
+  },
+  {
+    "word": "crazy about",
+    "meaning": "very enthusiastic about something or someone",
+    "meaning_VN": "mê mẩn về",
+    "wordClass": "adjective + preposition",
+    "family": ["crazily (adv)", "craziness (n)"]
+  },
+  {
+    "word": "listen to",
+    "meaning": "to pay attention to someone or something that you can hear",
+    "meaning_VN": "lắng nghe",
+    "wordClass": "verb + preposition",
+    "family": ["listener (n)", "listening (n)"]
+  },
+  {
+    "word": "good at",
+    "meaning": "having skill or ability in a particular area",
+    "meaning_VN": "giỏi về",
+    "wordClass": "adjective + preposition",
+    "family": ["better at (adj)", "best at (adj)"]
+  },
+  {
+    "word": "take part in",
+    "meaning": "to be involved in an activity with other people",
+    "meaning_VN": "tham gia vào",
+    "wordClass": "verb + preposition",
+    "family": ["takes part in (v)", "taking part in (v)", "took part in (v)"]
+  },
+  {
+    "word": "interested in",
+    "meaning": "wanting to know or learn more about something",
+    "meaning_VN": "quan tâm đến",
+    "wordClass": "adjective + preposition",
+    "family": ["interest (n)", "interesting (adj)"]
+  },
+  {
+    "word": "a book (by sb) about",
+    "meaning": "a written work by someone that provides information on a specific topic",
+    "meaning_VN": "một cuốn sách (của ai đó) về",
+    "wordClass": "noun + preposition",
+    "family": ["books (n)", "author (n)"]
+  },
+  {
+    "word": "keen on",
+    "meaning": "very interested in or enthusiastic about something",
+    "meaning_VN": "ham thích",
+    "wordClass": "adjective + preposition",
+    "family": ["keenness (n)", "keenly (adv)"]
+  },
+  {
+    "word": "a game against",
+    "meaning": "a competitive activity or sport played in opposition to another person or team",
+    "meaning_VN": "một trận đấu chống lại",
+    "wordClass": "noun + preposition",
+    "family": ["games (n)", "competition (n)"]
+  },
+  {
+    "word": "a fan of",
+    "meaning": "someone who admires and supports a person, sports team, or type of entertainment",
+    "meaning_VN": "một người hâm mộ của",
+    "wordClass": "noun + preposition",
+    "family": ["fans (n)", "fandom (n)"]
+  },
+  {
+    "word": "popular with",
+    "meaning": "liked or admired by many people or by a particular group of people",
+    "meaning_VN": "phổ biến với",
+    "wordClass": "adjective + preposition",
+    "family": ["popularity (n)", "popularly (adv)"]
+  },
+  {
+    "word": "by heart",
+    "meaning": "remembered or memorized completely",
+    "meaning_VN": "thuộc lòng",
+    "wordClass": "adverb phrase",
+    "family": ["memorize (v)", "recite (v)"]
+  },
+  {
+    "word": "for instance",
+    "meaning": "as an example",
+    "meaning_VN": "ví dụ",
+    "wordClass": "adverb phrase",
+    "family": ["example (n)", "illustrate (v)"]
+  },
+  {
+    "word": "in conclusion",
+    "meaning": "used to introduce the final point or summary",
+    "meaning_VN": "để kết luận",
+    "wordClass": "adverb phrase",
+    "family": ["conclude (v)", "summary (n)"]
+  },
+  {
+    "word": "in fact",
+    "meaning": "used to emphasize that something is true, especially when it is surprising",
+    "meaning_VN": "thực tế là",
+    "wordClass": "adverb phrase",
+    "family": ["actually (adv)", "indeed (adv)"]
+  },
+  {
+    "word": "in favour (of)",
+    "meaning": "supporting or approving of something",
+    "meaning_VN": "ủng hộ",
+    "wordClass": "prepositional phrase",
+    "family": ["favorable (adj)", "support (v)"]
+  },
+  {
+    "word": "in general",
+    "meaning": "considering the whole rather than the parts; usually",
+    "meaning_VN": "nói chung",
+    "wordClass": "adverb phrase",
+    "family": ["generally (adv)", "broadly (adv)"]
+  },
+  {
+    "word": "capable of",
+    "meaning": "having the ability, fitness, or quality necessary to do something",
+    "meaning_VN": "có khả năng",
+    "wordClass": "adjective + preposition",
+    "family": ["capability (n)", "capacities (n)"]
+  },
+  {
+    "word": "talented at",
+    "meaning": "having a natural aptitude or skill for something",
+    "meaning_VN": "có tài năng về",
+    "wordClass": "adjective + preposition",
+    "family": ["talent (n)", "skillful (adj)"]
+  },
+  {
+    "word": "cheat at/in",
+    "meaning": "to act dishonestly in order to gain an advantage in something",
+    "meaning_VN": "gian lận trong",
+    "wordClass": "verb + preposition",
+    "family": ["cheating (n)", "cheater (n)"]
+  },
+  {
+    "word": "confuse with",
+    "meaning": "to mistake one thing or person for another",
+    "meaning_VN": "nhầm lẫn với",
+    "wordClass": "verb + preposition",
+    "family": ["confusion (n)", "confused (adj)"]
+  },
+  {
+    "word": "continue with",
+    "meaning": "to carry on with an activity or process",
+    "meaning_VN": "tiếp tục với",
+    "wordClass": "verb + preposition",
+    "family": ["continuation (n)", "continuing (v)"]
+  },
+  {
+    "word": "cope with",
+    "meaning": "to deal successfully with something difficult",
+    "meaning_VN": "đối phó với",
+    "wordClass": "verb + preposition",
+    "family": ["coping (v)", "coped (v)"]
+  },
+  {
+    "word": "help with",
+    "meaning": "to give assistance or support with something",
+    "meaning_VN": "giúp đỡ với",
+    "wordClass": "verb + preposition",
+    "family": ["helper (n)", "helpful (adj)"]
+  },
+  {
+    "word": "know about",
+    "meaning": "to have information about something",
+    "meaning_VN": "biết về",
+    "wordClass": "verb + preposition",
+    "family": ["knowledge (n)", "knowing (v)"]
+  },
+  {
+    "word": "learn about",
+    "meaning": "to gain knowledge about something",
+    "meaning_VN": "học về",
+    "wordClass": "verb + preposition",
+    "family": ["learner (n)", "learning (n)"]
+  },
+  {
+    "word": "succeed in",
+    "meaning": "to achieve what you were trying to do",
+    "meaning_VN": "thành công trong",
+    "wordClass": "verb + preposition",
+    "family": ["success (n)", "successful (adj)"]
+  },
+  {
+    "word": "an opinion about/of",
+    "meaning": "a view or judgment formed about something",
+    "meaning_VN": "một ý kiến về",
+    "wordClass": "noun + preposition",
+    "family": ["opinions (n)", "opinionated (adj)"]
+  },
+  {
+    "word": "a question about",
+    "meaning": "an inquiry regarding something",
+    "meaning_VN": "một câu hỏi về",
+    "wordClass": "noun + preposition",
+    "family": ["questioning (n)", "questionnaire (n)"]
+  }
+]

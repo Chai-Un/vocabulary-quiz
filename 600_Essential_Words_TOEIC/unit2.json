@@ -1,0 +1,86 @@
+[
+  {
+    "word": "attract",
+    "meaning": "to draw someone's interest or attention to something",
+    "meaning_VN": "thu hút",
+    "wordClass": "verb",
+    "family": ["attract (v)", "attracts (v)", "attracting (v)", "attracted (v)", "attraction (n)", "attractive (adj)", "attractively (adv)"]
+  },
+  {
+    "word": "compare",
+    "meaning": "to examine people or things to find similarities and differences between them",
+    "meaning_VN": "so sánh",
+    "wordClass": "verb",
+    "family": ["compare (v)", "compares (v)", "comparing (v)", "compared (v)", "comparison (n)", "comparable (adj)", "comparatively (adv)"]
+  },
+  {
+    "word": "competition",
+    "meaning": "a situation in which people or organizations compete with each other for something",
+    "meaning_VN": "sự cạnh tranh",
+    "wordClass": "noun",
+    "family": ["compete (v)", "competing (adj)", "competitor (n)", "competitive (adj)", "competitively (adv)"]
+  },
+  {
+    "word": "consume",
+    "meaning": "to use a product, food, or service",
+    "meaning_VN": "tiêu thụ",
+    "wordClass": "verb",
+    "family": ["consumes", "consuming", "consumed", "consumer", "consumption"]
+  },
+  {
+    "word": "convince",
+    "meaning": "to persuade someone to do something or to believe that something is true",
+    "meaning_VN": "thuyết phục",
+    "wordClass": "verb",
+    "family": ["convinces", "convincing", "convinced", "convincingly"]
+  },
+  {
+    "word": "currently",
+    "meaning": "at the present time",
+    "meaning_VN": "hiện tại",
+    "wordClass": "adverb",
+    "family": ["current", "currency"]
+  },
+  {
+    "word": "fad",
+    "meaning": "something that becomes very popular for a short period of time",
+    "meaning_VN": "mốt nhất thời",
+    "wordClass": "noun",
+    "family": ["fads", "faddish"]
+  },
+  {
+    "word": "inspiration",
+    "meaning": "a feeling or influence that makes someone want to do something creative",
+    "meaning_VN": "cảm hứng",
+    "wordClass": "noun",
+    "family": ["inspire", "inspiring", "inspired", "inspirational"]
+  },
+  {
+    "word": "market",
+    "meaning": "the business or trade in a particular product or commodity",
+    "meaning_VN": "thị trường",
+    "wordClass": "noun",
+    "family": ["markets", "marketing", "marketer", "marketed"]
+  },
+  {
+    "word": "persuasion",
+    "meaning": "the act of convincing someone to do or believe something",
+    "meaning_VN": "sự thuyết phục",
+    "wordClass": "noun",
+    "family": ["persuade", "persuading", "persuaded", "persuasive"]
+  },
+  {
+    "word": "productive",
+    "meaning": "producing or achieving a significant amount of results",
+    "meaning_VN": "có hiệu quả, hiệu suất cao",
+    "wordClass": "adjective",
+    "family": ["produce (v)", "product (n)", "production (n)", "productivity (n)", "productively (adv)"]
+  },
+  {
+    "word": "satisfaction",
+    "meaning": "the good feeling that you have when you have achieved something or when something happens as you wanted",
+    "meaning_VN": "sự hài lòng",
+    "wordClass": "noun",
+    "family": ["satisfy (v)", "satisfying (adj)", "satisfied (adj)", "satisfactory (adj)", "satisfactorily (adv)"]
+  }
+]

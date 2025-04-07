@@ -1,0 +1,275 @@
+[
+  {
+    "word": "achieve",
+    "meaning": "to successfully complete something or get a good result",
+    "meaning_VN": "đạt được",
+    "wordClass": "verb",
+    "family": ["achievement (n)", "achievable (adj)"]
+  },
+  {
+    "word": "guess",
+    "meaning": "to give an answer or opinion when you don't know all the facts",
+    "meaning_VN": "đoán, phỏng đoán",
+    "wordClass": "verb, noun",
+    "family": ["guessed (v)", "guessing (v)"]
+  },
+  {
+    "word": "report",
+    "meaning": "a written or spoken description of an event or situation",
+    "meaning_VN": "báo cáo",
+    "wordClass": "noun",
+    "family": ["reporter (n)", "reporting (v)", "reported (v)"]
+  },
+  {
+    "word": "brain",
+    "meaning": "the organ inside your head that controls thought, memory, feelings and activity",
+    "meaning_VN": "não",
+    "wordClass": "noun",
+    "family": ["brainy (adj)", "brainless (adj)"]
+  },
+  {
+    "word": "clever",
+    "meaning": "quick to understand, learn and think of new ideas",
+    "meaning_VN": "thông minh",
+    "wordClass": "adjective",
+    "family": ["clever (adj)", "cleverly (adv)", "cleverness (n)"]
+  },
+  {
+    "word": "hesitate",
+    "meaning": "to pause before doing something, especially because you are uncertain",
+    "meaning_VN": "lưỡng lự, do dự",
+    "wordClass": "verb",
+    "family": ["hesitation (n)", "hesitant (adj)"]
+  },
+  {
+    "word": "instruction",
+    "meaning": "detailed information about how something should be done",
+    "meaning_VN": "hướng dẫn, chỉ dẫn",
+    "wordClass": "noun",
+    "family": ["instruct (v)", "instructor (n)", "instructive (adj)"]
+  },
+  {
+    "word": "revise",
+    "meaning": "to study again, especially for an exam",
+    "meaning_VN": "ôn tập",
+    "wordClass": "verb",
+    "family": ["revise (v)", "revision (n)", "revisable (adj)", "revisability (n)"]
+  },
+  {
+    "word": "search",
+    "meaning": "to look carefully for something",
+    "meaning_VN": "tìm kiếm",
+    "wordClass": "verb, noun",
+    "family": ["searcher (n)", "searching (v)", "searched (v)"]
+  },
+  {
+    "word": "concentrate",
+    "meaning": "to focus your attention or efforts on something",
+    "meaning_VN": "tập trung",
+    "wordClass": "verb",
+    "family": ["concentration (n)", "concentrated (adj)"]
+  },
+  {
+    "word": "make progress",
+    "meaning": "to move forward or improve in learning or development",
+    "meaning_VN": "tiến bộ",
+    "wordClass": "verb phrase",
+    "family": ["progress (n)", "progressing (v)", "progressive (adj)"]
+  },
+  {
+    "word": "skill",
+    "meaning": "an ability to do something well, especially because you have learned and practiced it",
+    "meaning_VN": "kỹ năng",
+    "wordClass": "noun",
+    "family": ["skilled (adj)", "skillful (adj)"]
+  },
+  {
+    "word": "consider",
+    "meaning": "to think about something carefully",
+    "meaning_VN": "xem xét, cân nhắc",
+    "wordClass": "verb",
+    "family": ["consideration (n)", "considerable (adj)", "considering (v)"]
+  },
+  {
+    "word": "make sure",
+    "meaning": "to check that something is certain",
+    "meaning_VN": "đảm bảo, chắc chắn",
+    "wordClass": "verb phrase",
+    "family": []
+  },
+  {
+    "word": "smart",
+    "meaning": "intelligent, showing good thinking ability",
+    "meaning_VN": "thông minh",
+    "wordClass": "adjective",
+    "family": ["smartly (adv)", "smartness (n)"]
+  },
+  {
+    "word": "course",
+    "meaning": "a series of lessons or lectures on a particular subject",
+    "meaning_VN": "khóa học",
+    "wordClass": "noun",
+    "family": []
+  },
+  {
+    "word": "mark",
+    "meaning": "to check work and give a score or grade",
+    "meaning_VN": "chấm điểm",
+    "wordClass": "verb, noun",
+    "family": ["marked (v)", "marking (v)", "marker (n)"]
+  },
+  {
+    "word": "subject",
+    "meaning": "an area of knowledge studied in school or university",
+    "meaning_VN": "môn học",
+    "wordClass": "noun",
+    "family": []
+  },
+  {
+    "word": "degree",
+    "meaning": "an academic qualification awarded by a university after completing a course",
+    "meaning_VN": "bằng cấp",
+    "wordClass": "noun",
+    "family": []
+  },
+  {
+    "word": "mental",
+    "meaning": "related to the mind or brain",
+    "meaning_VN": "thuộc về tinh thần, thuộc về trí óc",
+    "wordClass": "adjective",
+    "family": ["mentally (adv)", "mentality (n)"]
+  },
+  {
+    "word": "take an exam",
+    "meaning": "to participate in a formal test of knowledge",
+    "meaning_VN": "thi, làm bài kiểm tra",
+    "wordClass": "verb phrase",
+    "family": ["examination (n)", "exam (n)"]
+  },
+  {
+    "word": "experience",
+    "meaning": "knowledge or skill gained from doing something",
+    "meaning_VN": "kinh nghiệm",
+    "wordClass": "noun, verb",
+    "family": ["experienced (adj)", "experiencing (v)", "experiential (adj)"]
+  },
+  {
+    "word": "pass",
+    "meaning": "to succeed in a test or exam",
+    "meaning_VN": "đậu, vượt qua",
+    "wordClass": "verb",
+    "family": ["passed (v)", "passing (v)"]
+  },
+  {
+    "word": "talented",
+    "meaning": "having a natural ability or skill",
+    "meaning_VN": "tài năng",
+    "wordClass": "adjective",
+    "family": ["talent (n)", "talentless (adj)"]
+  },
+  {
+    "word": "expert",
+    "meaning": "a person with special knowledge or skill in a subject",
+    "meaning_VN": "chuyên gia",
+    "wordClass": "noun, adjective",
+    "family": ["expertise (n)", "expertly (adv)"]
+  },
+  {
+    "word": "qualification",
+    "meaning": "an official record showing that you have finished a course or passed an exam",
+    "meaning_VN": "bằng cấp, chứng chỉ",
+    "wordClass": "noun",
+    "family": ["qualify (v)", "qualified (adj)"]
+  },
+  {
+    "word": "term",
+    "meaning": "one of the periods that the school year is divided into",
+    "meaning_VN": "học kỳ",
+    "wordClass": "noun",
+    "family": ["terminal (adj)", "terminology (n)"]
+  },
+  {
+    "word": "fail",
+    "meaning": "to not succeed in a test or exam",
+    "meaning_VN": "thất bại, trượt",
+    "wordClass": "verb",
+    "family": ["failure (n)", "failing (v)", "failed (adj)"]
+  },
+  {
+    "word": "remind",
+    "meaning": "to make someone remember something",
+    "meaning_VN": "nhắc nhở",
+    "wordClass": "verb",
+    "family": ["reminder (n)", "reminded (v)"]
+  },
+  {
+    "word": "wonder",
+    "meaning": "to think about something and try to decide what is true or what to do",
+    "meaning_VN": "tự hỏi, thắc mắc",
+    "wordClass": "verb",
+    "family": ["wonderful (adj)", "wondering (v)"]
+  },
+  {
+    "word": "begin",
+    "meaning": "to start doing something",
+    "meaning_VN": "bắt đầu",
+    "wordClass": "verb",
+    "family": ["began (v)", "begun (v)", "beginner (n)", "beginning (n)"]
+  },
+  {
+    "word": "brave",
+    "meaning": "showing courage, not afraid",
+    "meaning_VN": "dũng cảm",
+    "wordClass": "adjective",
+    "family": ["bravery (n)", "bravely (adv)"]
+  },
+  {
+    "word": "correct",
+    "meaning": "right or accurate, without mistakes",
+    "meaning_VN": "đúng, chính xác",
+    "wordClass": "adjective, verb",
+    "family": ["correction (n)", "incorrect (adj)", "correctly (adv)"]
+  },
+  {
+    "word": "divide",
+    "meaning": "to separate into parts or groups",
+    "meaning_VN": "chia, phân chia",
+    "wordClass": "verb",
+    "family": ["division (n)", "divisible (adj)", "dividing (v)"]
+  },
+  {
+    "word": "educate",
+    "meaning": "to teach someone at a school or similar institution",
+    "meaning_VN": "giáo dục",
+    "wordClass": "verb",
+    "family": ["education (n)", "educational (adj)", "educated (adj)"]
+  },
+  {
+    "word": "memory",
+    "meaning": "the ability to remember information, experiences and people",
+    "meaning_VN": "trí nhớ",
+    "wordClass": "noun",
+    "family": ["memorise (v)", "memorial (n)", "memorable (adj)"]
+  },
+  {
+    "word": "refer",
+    "meaning": "to mention or speak about someone or something",
+    "meaning_VN": "tham khảo, đề cập",
+    "wordClass": "verb",
+    "family": ["reference (n)", "referral (n)", "referring (v)"]
+  },
+  {
+    "word": "silent",
+    "meaning": "not making any sound or noise",
+    "meaning_VN": "im lặng",
+    "wordClass": "adjective",
+    "family": ["silence (n)", "silently (adv)"]
+  },
+  {
+    "word": "simple",
+    "meaning": "easy to understand or do, not complicated",
+    "meaning_VN": "đơn giản",
+    "wordClass": "adjective",
+    "family": ["simplify (v)", "simplicity (n)", "simply (adv)"]
+  }
+]
