@@ -4,14 +4,14 @@
     "meaning": "to go somewhere with someone",
     "meaning_VN": "đi cùng, tháp tùng",
     "wordClass": "verb",
-    "family": ["accompanies", "accompanying", "accompanied", "accompaniment"]
+    "family": ["accompanies (v)", "accompanying (v)", "accompanied (v)", "accompaniment (n)"]
   },
   {
     "word": "encounter",
     "meaning": "to experience problems or difficulties",
     "meaning_VN": "gặp phải, đối mặt với",
     "wordClass": "verb",
-    "family": ["encounters", "encountering", "encountered"]
+    "family": ["encounters (v)", "encountering (v)", "encountered (v)"]
   },
   {
     "word": "overcome",

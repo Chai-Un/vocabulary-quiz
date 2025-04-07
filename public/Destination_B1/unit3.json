@@ -213,68 +213,68 @@
   "meaning": "to do something or take action",
   "meaning_VN": "hành động",
   "wordClass": "verb",
-  "family": ["action", "active", "inactive", "actor", "acting"]
+  "family": ["action (n)", "active (adj)", "inactive (adj)", "actor (n)", "acting (n)"]
 },
 {
   "word": "hero",
   "meaning": "a person who is admired for their courage, achievements, or noble qualities",
   "meaning_VN": "anh hùng",
   "wordClass": "noun",
-  "family": ["heroic", "heroine", "heroism"]
+  "family": ["heroic (adj)", "heroine (n)", "heroism (n)"]
 },
 {
   "word": "athlete",
   "meaning": "a person who competes in sports or physical activities",
   "meaning_VN": "vận động viên",
   "wordClass": "noun",
-  "family": ["athletic", "athletics"]
+  "family": ["athletic (adj)", "athletics (n)"]
 },
 {
   "word": "music",
   "meaning": "sounds organized in a way that is pleasant or exciting to listen to",
   "meaning_VN": "âm nhạc",
   "wordClass": "noun",
-  "family": ["musical", "musician"]
+  "family": ["musical (adj)", "musician (n)"]
 },
 {
   "word": "child",
   "meaning": "a young human being below the age of puberty",
   "meaning_VN": "đứa trẻ",
   "wordClass": "noun",
-  "family": ["children", "childhood", "childish"]
+  "family": ["children (n)", "childhood (n)", "childish (adj)"]
 },
 {
   "word": "play",
   "meaning": "to engage in activity for enjoyment and recreation rather than a serious purpose",
   "meaning_VN": "chơi, đùa",
   "wordClass": "verb, noun",
-  "family": ["player", "playful", "playing", "played"]
+  "family": ["player (n)", "playful (adj)", "playing (n)", "played (v)"]
 },
 {
   "word": "collect",
   "meaning": "to gather together and bring to a place",
   "meaning_VN": "sưu tầm, thu thập",
   "wordClass": "verb",
-  "family": ["collection", "collector", "collecting"]
+  "family": ["collection (n)", "collector (n)", "collecting (n)"]
 },
 {
   "word": "sail",
   "meaning": "to travel in a boat with sails, especially as a sport or recreation",
   "meaning_VN": "đi thuyền",
   "wordClass": "verb, noun",
-  "family": ["sailing", "sailor", "sailboat"]
+  "family": ["sailing (n)", "sailor (n)", "sailboat (n)"]
 },
 {
   "word": "entertain",
   "meaning": "to provide amusement or enjoyment",
   "meaning_VN": "giải trí",
   "wordClass": "verb",
-  "family": ["entertainment", "entertaining", "entertainer"]
+  "family": ["entertainment (n)", "entertaining (adj)", "entertainer (n)"]
 },
 {
   "word": "sing",
   "meaning": "to make musical sounds with the voice",
   "meaning_VN": "hát",
   "wordClass": "verb",
-  "family": ["sang", "sung", "song", "singer", "singing"]
+  "family": ["sang (v)", "sung (v)", "song (n)", "singer (n)", "singing (n)"]
 }]

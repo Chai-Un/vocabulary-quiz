@@ -11,42 +11,42 @@
     "meaning": "the scientific study of the stars, planets, and other natural objects in space",
     "meaning_VN": "thiên văn học",
     "wordClass": "noun",
-    "family": ["astronomical", "astronomer"]
+    "family": ["astronomical (adj)", "astronomer (n)"]
   },
   {
     "word": "economics",
     "meaning": "the study of the way in which money, industry, and trade are organized in a society",
     "meaning_VN": "kinh tế học",
     "wordClass": "noun",
-    "family": ["economic", "economical", "economist"]
+    "family": ["economic (adj)", "economical (adj)", "economist (n)"]
   },
   {
     "word": "geology",
     "meaning": "the study of the Earth's structure, surface, and origins",
     "meaning_VN": "địa chất học",
     "wordClass": "noun",
-    "family": ["geological", "geologist"]
+    "family": ["geological (adj)", "geologist (n)"]
   },
   {
     "word": "linguistics",
     "meaning": "the study of the way in which language works",
     "meaning_VN": "ngôn ngữ học",
     "wordClass": "noun",
-    "family": ["linguistic", "linguist"]
+    "family": ["linguistic (adj)", "linguist (n)"]
   },
   {
     "word": "psychology",
     "meaning": "the scientific study of the human mind and the reasons for people's behaviour",
     "meaning_VN": "tâm lý học",
     "wordClass": "noun",
-    "family": ["psychological", "psychologist"]
+    "family": ["psychological (adj)", "psychologist (n)"]
   },
   {
     "word": "sociology",
     "meaning": "the study of society or of the way society is organized",
     "meaning_VN": "xã hội học",
     "wordClass": "noun",
-    "family": ["sociological", "sociologist"]
+    "family": ["sociological (adj)", "sociologist (n)"]
   },
   {
     "word": "analyse",
@@ -60,28 +60,28 @@
     "meaning": "to say that something is true but without providing definite proof",
     "meaning_VN": "khẳng định, tuyên bố",
     "wordClass": "verb",
-    "family": ["claims", "claiming", "claimed", "claimant"]
+    "family": ["claims (v)", "claiming (v)", "claimed (v)", "claimant (n)"]
   },
   {
     "word": "define",
     "meaning": "to explain the meaning of a word or expression",
     "meaning_VN": "định nghĩa",
     "wordClass": "verb",
-    "family": ["defines", "defining", "defined", "definition"]
+    "family": ["defines (v)", "defining (v)", "defined (v)", "definition (n)"]
   },
   {
     "word": "evaluate",
     "meaning": "to consider something in order to make a judgment about it",
     "meaning_VN": "đánh giá",
     "wordClass": "verb",
-    "family": ["evaluates", "evaluating", "evaluated", "evaluation"]
+    "family": ["evaluates (v)", "evaluating (v)", "evaluated (v)", "evaluation (n)"]
   },
   {
     "word": "investigate",
     "meaning": "to study or examine something carefully to find out the truth about it",
     "meaning_VN": "điều tra",
     "wordClass": "verb",
-    "family": ["investigates", "investigating", "investigated", "investigation", "investigative", "investigator"]
+    "family": ["investigates (v)", "investigating (v)", "investigated (v)", "investigation (n)", "investigative (adj)", "investigator (n)"]
   },
   {
     "word": "evidence",
@@ -95,13 +95,13 @@
     "meaning": "an idea which is suggested as a possible explanation for a particular situation or condition, but which has not yet been proved to be correct",
     "meaning_VN": "giả thuyết",
     "wordClass": "noun",
-    "family": ["hypotheses", "hypothetical", "hypothesize"]
+    "family": ["hypotheses (n)", "hypothetical (adj)", "hypothesize (v)"]
   },
   {
     "word": "theory",
     "meaning": "a formal idea or set of ideas that is intended to explain something",
     "meaning_VN": "lý thuyết",
     "wordClass": "noun",
-    "family": ["theories", "theoretical", "theorist", "theorize"]
+    "family": ["theories (n)", "theoretical (adj)", "theorist (n)", "theorize (v)"]
   }
 ]

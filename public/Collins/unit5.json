@@ -4,14 +4,14 @@
     "meaning": "the difference in direction between two lines or surfaces, measured in degrees",
     "meaning_VN": "góc",
     "wordClass": "noun",
-    "family": ["angles", "angular"]
+    "family": ["angles (n)", "angular (adj)"]
   },
   {
     "word": "circumference",
     "meaning": "the distance around the edge of a circle, place, or round object",
     "meaning_VN": "chu vi",
     "wordClass": "noun",
-    "family": ["circumferential"]
+    "family": ["circumferential (adj)"]
   },
   {
     "word": "diameter",
