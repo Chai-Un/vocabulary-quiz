@@ -1,0 +1,107 @@
+[
+  {
+    "word": "addiction",
+    "meaning": "the condition of taking harmful drugs and being unable to stop taking them",
+    "meaning_VN": "sự nghiện, nghiện ngập",
+    "wordClass": "noun",
+    "family": ["addictions (n)", "addicted (adj)", "addictive (adj)"]
+  },
+  {
+    "word": "allergy",
+    "meaning": "a condition where you become ill or get a rash when you eat, smell, or touch something that does not normally make people ill",
+    "meaning_VN": "dị ứng",
+    "wordClass": "noun",
+    "family": ["allergies (n)", "allergic (adj)"]
+  },
+  {
+    "word": "cancer",
+    "meaning": "a serious disease in which cells in a person's body increase rapidly in an uncontrolled way, producing abnormal growths",
+    "meaning_VN": "ung thư",
+    "wordClass": "noun",
+    "family": ["cancers (n)", "cancerous (adj)"]
+  },
+  {
+    "word": "dehydration",
+    "meaning": "the condition of having lost too much water from your body",
+    "meaning_VN": "sự mất nước",
+    "wordClass": "noun",
+    "family": ["dehydrate (v)", "dehydrated (adj)"]
+  },
+  {
+    "word": "disease",
+    "meaning": "an illness that affects people, animals or plants, for example one which is caused by bacteria or infection",
+    "meaning_VN": "bệnh tật",
+    "wordClass": "noun",
+    "family": ["diseases (n)", "diseased (adj)"]
+  },
+  {
+    "word": "infection",
+    "meaning": "a disease caused by germs or bacteria",
+    "meaning_VN": "sự nhiễm trùng",
+    "wordClass": "noun",
+    "family": ["infections (n)", "infected (adj)", "infectious (adj)"]
+  },
+  {
+    "word": "obesity",
+    "meaning": "the condition of being extremely fat",
+    "meaning_VN": "sự béo phì",
+    "wordClass": "noun",
+    "family": ["obese (adj)"]
+  },
+  {
+    "word": "stroke",
+    "meaning": "a medical condition where a blood vessel in the brain bursts or becomes blocked, which may cause death or inability to move one side of the body",
+    "meaning_VN": "đột quỵ",
+    "wordClass": "noun",
+    "family": ["strokes (n)"]
+  },
+  {
+    "word": "administer",
+    "meaning": "if a doctor or nurse administers a drug, they give it to a patient",
+    "meaning_VN": "cho dùng (thuốc)",
+    "wordClass": "verb",
+    "family": ["administers (v)", "administering (v)", "administered (v)", "administration (n)"]
+  },
+  {
+    "word": "admit",
+    "meaning": "to take someone into hospital for treatment and keep them there until they are well enough to go home",
+    "meaning_VN": "nhập viện",
+    "wordClass": "verb",
+    "family": ["admits (v)", "admitting (v)", "admitted (v)", "admission (n)"]
+  },
+  {
+    "word": "diagnose",
+    "meaning": "to identify a particular illness or problem",
+    "meaning_VN": "chẩn đoán",
+    "wordClass": "verb",
+    "family": ["diagnose (v)", "diagnosis (n)", "diagnostic (adj)", "diagnostically (adv)"]
+  },
+  {
+    "word": "discharge",
+    "meaning": "to officially allow or require someone to leave a hospital",
+    "meaning_VN": "xuất viện",
+    "wordClass": "verb",
+    "family": ["discharges (v)", "discharging (v)", "discharged (v)"]
+  },
+  {
+    "word": "examine",
+    "meaning": "if a doctor examines you, they look at your body, feel it, or do simple tests to check your health",
+    "meaning_VN": "khám",
+    "wordClass": "verb",
+    "family": ["examines (v)", "examining (v)", "examined (v)", "examination (n)", "examiner (n)"]
+  },
+  {
+    "word": "screen",
+    "meaning": "to examine people to check if they have a particular disease",
+    "meaning_VN": "sàng lọc",
+    "wordClass": "verb",
+    "family": ["screens (v)", "screening (v)", "screened (v)"]
+  },
+  {
+    "word": "vaccinate",
+    "meaning": "to give someone a vaccine, usually by injection, to prevent them getting a particular disease",
+    "meaning_VN": "tiêm vắc-xin",
+    "wordClass": "verb",
+    "family": ["vaccinates (v)", "vaccinating (v)", "vaccinated (v)", "vaccination (n)", "vaccine (n)"]
+  }
+]
