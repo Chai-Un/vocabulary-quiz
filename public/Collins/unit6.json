@@ -1,0 +1,107 @@
+[
+  {
+    "word": "amenity",
+    "meaning": "things such as shopping centres or sports facilities that are provided for people's convenience, enjoyment, or comfort",
+    "meaning_VN": "tiện nghi",
+    "wordClass": "noun",
+    "family": ["amenities"]
+  },
+  {
+    "word": "commuter",
+    "meaning": "a person who travels a long distance to work every day",
+    "meaning_VN": "người đi làm xa nhà",
+    "wordClass": "noun",
+    "family": ["commuters", "commute", "commuting"]
+  },
+  {
+    "word": "congestion",
+    "meaning": "when a place is extremely crowded and blocked with traffic or people",
+    "meaning_VN": "sự tắc nghẽn",
+    "wordClass": "noun",
+    "family": ["congested", "congest"]
+  },
+  {
+    "word": "housing",
+    "meaning": "buildings in which people live, especially when discussing their standard, price, or availability",
+    "meaning_VN": "nhà ở",
+    "wordClass": "noun",
+    "family": ["house", "houses", "housed"]
+  },
+  {
+    "word": "resident",
+    "meaning": "a person who lives in a particular house or area",
+    "meaning_VN": "cư dân",
+    "wordClass": "noun",
+    "family": ["residents", "residential", "residence"]
+  },
+  {
+    "word": "immigrant",
+    "meaning": "a person who has come to live in a country from some other country",
+    "meaning_VN": "người nhập cư",
+    "wordClass": "noun",
+    "family": ["immigrants", "immigration", "immigrate"]
+  },
+  {
+    "word": "infrastructure",
+    "meaning": "the basic facilities such as transport, communications, power supplies, and buildings, which enable a country or organization to function",
+    "meaning_VN": "cơ sở hạ tầng",
+    "wordClass": "noun",
+    "family": ["infrastructures", "infrastructural"]
+  },
+  {
+    "word": "inhabitant",
+    "meaning": "a person who lives in a particular place",
+    "meaning_VN": "dân cư",
+    "wordClass": "noun",
+    "family": ["inhabitants", "inhabit", "inhabited"]
+  },
+  {
+    "word": "neighbourhood",
+    "meaning": "one of the parts of a town where people live",
+    "meaning_VN": "khu phố",
+    "wordClass": "noun",
+    "family": ["neighbourhoods", "neighbor", "neighborhood", "neighboring"]
+  },
+  {
+    "word": "bustling",
+    "meaning": "full of people who are very busy or lively",
+    "meaning_VN": "nhộn nhịp",
+    "wordClass": "adjective",
+    "family": ["bustle", "bustled", "bustles"]
+  },
+  {
+    "word": "pioneering",
+    "meaning": "involving new methods or techniques that have not been done before",
+    "meaning_VN": "tiên phong",
+    "wordClass": "adjective",
+    "family": ["pioneer", "pioneers", "pioneered"]
+  },
+  {
+    "word": "historic",
+    "meaning": "important in history or likely to be important in history",
+    "meaning_VN": "mang tính lịch sử",
+    "wordClass": "adjective",
+    "family": ["history", "historical", "historically"]
+  },
+  {
+    "word": "rural",
+    "meaning": "relating to country areas as opposed to large towns",
+    "meaning_VN": "nông thôn",
+    "wordClass": "adjective",
+    "family": ["rurally", "rurality"]
+  },
+  {
+    "word": "sprawling",
+    "meaning": "built over a large area in an untidy or uncontrolled way",
+    "meaning_VN": "trải rộng một cách lộn xộn",
+    "wordClass": "adjective",
+    "family": ["sprawl", "sprawls", "sprawled"]
+  },
+  {
+    "word": "urban",
+    "meaning": "belonging to, or relating to, a town or city",
+    "meaning_VN": "thuộc đô thị",
+    "wordClass": "adjective",
+    "family": ["urbanization", "urbanize", "urbanism"]
+  }
+]

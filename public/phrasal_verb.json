@@ -1,0 +1,107 @@
+[
+  {
+    "word": "carry on",
+    "meaning": "to continue doing something, especially after an interruption",
+    "meaning_VN": "tiếp tục làm việc gì đó",
+    "wordClass": "phrasal verb",
+    "family": ["carrying on (v)", "carries on (v)", "carried on (v)", "carry-on (n)"]
+  },
+  {
+    "word": "eat out",
+    "meaning": "to eat a meal in a restaurant instead of at home",
+    "meaning_VN": "ăn ở ngoài, ăn nhà hàng",
+    "wordClass": "phrasal verb",
+    "family": ["eating out", "eats out", "ate out"]
+  },
+  {
+    "word": "give up",
+    "meaning": "to stop trying to do something; to surrender",
+    "meaning_VN": "từ bỏ, đầu hàng",
+    "wordClass": "phrasal verb",
+    "family": ["giving up (v)", "gives up (v)", "gave up (v)", "given up (v)"]
+  },
+  {
+    "word": "join in",
+    "meaning": "to take part in an activity with other people",
+    "meaning_VN": "tham gia cùng với",
+    "wordClass": "phrasal verb",
+    "family": ["joining in", "joins in", "joined in"]
+  },
+  {
+    "word": "send off",
+    "meaning": "to dispatch or mail something; to order a person to leave",
+    "meaning_VN": "gửi đi, đuổi đi",
+    "wordClass": "phrasal verb",
+    "family": ["sending off", "sends off", "sent off"]
+  },
+  {
+    "word": "take up",
+    "meaning": "to begin doing a new hobby or activity; to occupy space or time",
+    "meaning_VN": "bắt đầu làm điều gì đó, chiếm không gian hoặc thời gian",
+    "wordClass": "phrasal verb",
+    "family": ["taking up", "takes up", "took up"]
+  },
+  {
+    "word": "turn down",
+    "meaning": "to reject or refuse an offer or request; to reduce the volume",
+    "meaning_VN": "từ chối một lời đề nghị; giảm âm lượng",
+    "wordClass": "phrasal verb",
+    "family": ["turning down", "turns down", "turned down"]
+  },
+  {
+    "word": "cross out",
+    "meaning": "to draw a line through something written to show it is wrong or should be removed",
+    "meaning_VN": "gạch bỏ",
+    "wordClass": "phrasal verb",
+    "family": ["crossing out", "crosses out", "crossed out"]
+  },
+  {
+    "word": "look up",
+    "meaning": "to try to find information in a book, dictionary, or other reference source",
+    "meaning_VN": "tra cứu",
+    "wordClass": "phrasal verb",
+    "family": ["look up (v)", "looking up (v)", "looks up (v)", "looked up (v)", "lookup (n)"]
+  },
+  {
+    "word": "point out",
+    "meaning": "to tell someone about important information they might not have noticed",
+    "meaning_VN": "chỉ ra, nêu ra",
+    "wordClass": "phrasal verb",
+    "family": ["pointing out", "points out", "pointed out"]
+  },
+  {
+    "word": "read out",
+    "meaning": "to say something aloud that you are reading from a text",
+    "meaning_VN": "đọc to",
+    "wordClass": "phrasal verb",
+    "family": ["reading out", "reads out", "read out"]
+  },
+  {
+    "word": "rip up",
+    "meaning": "to tear something into pieces",
+    "meaning_VN": "xé vụn",
+    "wordClass": "phrasal verb",
+    "family": ["ripping up", "rips up", "ripped up"]
+  },
+  {
+    "word": "rub out",
+    "meaning": "to remove something written with an eraser or rubber",
+    "meaning_VN": "tẩy xóa",
+    "wordClass": "phrasal verb",
+    "family": ["rubbing out", "rubs out", "rubbed out"]
+  },
+  {
+    "word": "turn over",
+    "meaning": "to turn something so the other side is facing up or towards you",
+    "meaning_VN": "lật qua",
+    "wordClass": "phrasal verb",
+    "family": ["turning over", "turns over", "turned over"]
+  },
+  {
+    "word": "write down",
+    "meaning": "to write something on paper so that you have a record of it",
+    "meaning_VN": "ghi lại",
+    "wordClass": "phrasal verb",
+    "family": ["writing down", "writes down", "wrote down"]
+  }
+]

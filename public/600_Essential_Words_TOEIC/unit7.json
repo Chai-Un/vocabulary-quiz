@@ -1,0 +1,86 @@
+[
+  {
+    "word": "affordable",
+    "meaning": "inexpensive enough that people can afford to buy or pay for it",
+    "meaning_VN": "giá cả phải chăng",
+    "wordClass": "adjective",
+    "family": ["afford (v)", "affordability (n)", "unaffordable (adj)"]
+  },
+  {
+    "word": "as needed",
+    "meaning": "whenever it is necessary; only when required",
+    "meaning_VN": "khi cần thiết",
+    "wordClass": "adverb phrase",
+    "family": ["need (v/n)", "needed (adj)", "needful (adj)"]
+  },
+  {
+    "word": "be in charge of",
+    "meaning": "to be responsible for or have control over something or someone",
+    "meaning_VN": "phụ trách, chịu trách nhiệm",
+    "wordClass": "phrasal verb",
+    "family": ["charge (n)", "charged (adj)", "charging"]
+  },
+  {
+    "word": "capacity",
+    "meaning": "the maximum amount that something can contain or produce",
+    "meaning_VN": "công suất, sức chứa",
+    "wordClass": "noun",
+    "family": ["capacities", "capable (adj)", "incapacity (n)"]
+  },
+  {
+    "word": "durable",
+    "meaning": "able to last a long time without becoming damaged",
+    "meaning_VN": "bền, chắc chắn",
+    "wordClass": "adjective",
+    "family": ["durability (n)", "durably (adv)", "endure (v)"]
+  },
+  {
+    "word": "initiative",
+    "meaning": "the ability to make decisions and take action without waiting for someone to tell you what to do",
+    "meaning_VN": "sáng kiến, chủ động",
+    "wordClass": "noun",
+    "family": ["initiate (v)", "initiating", "initiated"]
+  },
+  {
+    "word": "physically",
+    "meaning": "in a way that relates to a person's body rather than their mind",
+    "meaning_VN": "về mặt thể chất",
+    "wordClass": "adverb",
+    "family": ["physical (adj)", "physics (n)", "physician (n)"]
+  },
+  {
+    "word": "provider",
+    "meaning": "a person or organization that supplies something needed such as goods or services",
+    "meaning_VN": "nhà cung cấp",
+    "wordClass": "noun",
+    "family": ["provide (v)", "providing", "provided", "provision (n)"]
+  },
+  {
+    "word": "recur",
+    "meaning": "to happen again, especially at regular intervals",
+    "meaning_VN": "tái diễn, lặp lại",
+    "wordClass": "verb",
+    "family": ["recurs", "recurring", "recurrence (n)", "recurrent (adj)"]
+  },
+  {
+    "word": "reduction",
+    "meaning": "the act of making something smaller or less in amount, size, or importance",
+    "meaning_VN": "sự giảm bớt",
+    "wordClass": "noun",
+    "family": ["reduce (v)", "reduced (adj)", "reducible (adj)"]
+  },
+  {
+    "word": "stay on top of",
+    "meaning": "to keep informed about and in control of something",
+    "meaning_VN": "nắm bắt, theo dõi sát sao",
+    "wordClass": "phrasal verb",
+    "family": ["stay", "staying", "stayed", "top (n)"]
+  },
+  {
+    "word": "stock",
+    "meaning": "the supply of goods available for sale in a shop; shares in the ownership of a company",
+    "meaning_VN": "hàng hóa; cổ phiếu",
+    "wordClass": "noun, verb",
+    "family": ["stocks", "stocking", "stocked", "stockist (n)"]
+  }
+]

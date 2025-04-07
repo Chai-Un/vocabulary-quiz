@@ -1,0 +1,86 @@
+[
+  {
+    "word": "abide by",
+    "meaning": "to accept and act according to a rule, decision, or recommendation",
+    "meaning_VN": "tuân theo",
+    "wordClass": "phrasal verb",
+    "family": ["abiding", "abides by", "abided by"]
+  },
+  {
+    "word": "agreement",
+    "meaning": "an arrangement, promise, or contract made with somebody",
+    "meaning_VN": "thỏa thuận, hợp đồng",
+    "wordClass": "noun",
+    "family": ["agree (v)", "agreement (n)", "agreeable (adj)", "agreeably (adv)"]
+  },
+  {
+    "word": "assurance",
+    "meaning": "a promise or guarantee that something will happen or is true",
+    "meaning_VN": "sự đảm bảo",
+    "wordClass": "noun",
+    "family": ["assure (v)", "assurance (n)", "assured (adj)", "assuredly (adv)"]
+  },
+  {
+    "word": "cancellation",
+    "meaning": "a decision to stop something that has been arranged from happening",
+    "meaning_VN": "sự hủy bỏ",
+    "wordClass": "noun",
+    "family": ["cancel (v)", "cancellation (n)", "canceled/cancelled (adj)"]
+  },
+  {
+    "word": "determine",
+    "meaning": "to find out or establish exactly something by calculation, research, or investigation",
+    "meaning_VN": "quyết định, xác định",
+    "wordClass": "verb",
+    "family": ["determines", "determining", "determined", "determination"]
+  },
+  {
+    "word": "engage",
+    "meaning": "to attract and keep someone's attention and interest; to employ or hire someone",
+    "meaning_VN": "tham gia, thuê",
+    "wordClass": "verb",
+    "family": ["engages", "engaging", "engaged", "engagement"]
+  },
+  {
+    "word": "establish",
+    "meaning": "to start or create an organization, system, or relationship that will last for a long time",
+    "meaning_VN": "thành lập, thiết lập",
+    "wordClass": "verb",
+    "family": ["establishes", "establishing", "established", "establishment"]
+  },
+  {
+    "word": "obligate",
+    "meaning": "to legally or morally require someone to do something",
+    "meaning_VN": "bắt buộc, ràng buộc",
+    "wordClass": "verb",
+    "family": ["obligate (v)", "obligation (n)", "obligatory (adj)"]
+  },
+  {
+    "word": "party",
+    "meaning": "a person or group that forms one side in a legal agreement or dispute",
+    "meaning_VN": "bên tham gia",
+    "wordClass": "noun",
+    "family": ["parties"]
+  },
+  {
+    "word": "provision",
+    "meaning": "a condition or requirement in a legal document; the act of supplying something",
+    "meaning_VN": "điều khoản, sự cung cấp",
+    "wordClass": "noun",
+    "family": ["provide (v)", "provider (n)", "provision (n)", "provisional (adj)"]
+  },
+  {
+    "word": "resolve",
+    "meaning": "to find an acceptable solution to a problem or difficulty",
+    "meaning_VN": "giải quyết",
+    "wordClass": "verb",
+    "family": ["resolves", "resolving", "resolved", "resolution"]
+  },
+  {
+    "word": "specific",
+    "meaning": "clearly defined or identified; precise and clear in making statements",
+    "meaning_VN": "cụ thể, rõ ràng",
+    "wordClass": "adjective",
+    "family": ["specify (v)", "specification (n)", "specific (adj)", "specifically (adv)"]
+  }
+]

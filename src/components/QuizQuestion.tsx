@@ -7,7 +7,6 @@ interface QuizQuestionProps {
   questionNumber: number;
   questionIndex: number;
   selectedAnswer?: string;
-  // Removed unused totalQuestions prop
 }
 
 const QuizQuestion = ({
@@ -27,11 +26,14 @@ const QuizQuestion = ({
       <Card className="shadow-sm rounded-lg">
         <p className="font-semibold mb-3">
           {questionNumber}. What is the meaning of "{question.questionWord}"?
+          {question.wordData.wordClass && (
+            <span className="text-gray-500 ml-1">({question.wordData.wordClass})</span>
+          )}
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
           {question.options.map((option, optIndex) => (
-            <div key={optIndex}>
+            <div key={optIndex} className="h-full">
               <div
                 className={`option-card ${selectedAnswer === option.meaning ? 'selected' : ''}`}
                 onClick={() => handleSelectOption(option.meaning)}

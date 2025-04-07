@@ -1,0 +1,107 @@
+[
+  {
+    "word": "client",
+    "meaning": "A person that receives a service from a professional person or organization in return for payment",
+    "meaning_VN": "khách hàng",
+    "wordClass": "noun",
+    "family": ["clients (n)", "clientele (n)"]
+  },
+  {
+    "word": "colleague",
+    "meaning": "The people you work with, especially in a professional job",
+    "meaning_VN": "đồng nghiệp",
+    "wordClass": "noun",
+    "family": ["colleagues"]
+  },
+  {
+    "word": "employer",
+    "meaning": "The person or organization that you work for",
+    "meaning_VN": "người chủ, công ty",
+    "wordClass": "noun",
+    "family": ["employers (n)", "employee (n)", "employment (n)", "employ (v)"]
+  },
+  {
+    "word": "parent",
+    "meaning": "Your mother or father",
+    "meaning_VN": "bố mẹ",
+    "wordClass": "noun",
+    "family": ["parents", "parental", "parenting"]
+  },
+  {
+    "word": "sibling",
+    "meaning": "Your brothers and sisters",
+    "meaning_VN": "anh chị em ruột",
+    "wordClass": "noun",
+    "family": ["siblings"]
+  },
+  {
+    "word": "spouse",
+    "meaning": "The person someone is married to",
+    "meaning_VN": "vợ/chồng",
+    "wordClass": "noun",
+    "family": ["spouses"]
+  },
+  {
+    "word": "autonomous",
+    "meaning": "Making your own decisions rather than being influenced by someone else",
+    "meaning_VN": "tự chủ, độc lập",
+    "wordClass": "adjective",
+    "family": ["autonomy", "autonomously"]
+  },
+  {
+    "word": "consistent",
+    "meaning": "Always behaving in the same way, having the same attitudes, or achieving the same level of success",
+    "meaning_VN": "nhất quán, đồng nhất",
+    "wordClass": "adjective",
+    "family": ["consistency", "consistently"]
+  },
+  {
+    "word": "conventional",
+    "meaning": "Having behavior and opinions that are ordinary and normal",
+    "meaning_VN": "theo quy ước, truyền thống",
+    "wordClass": "adjective",
+    "family": ["convention", "conventionally"]
+  },
+  {
+    "word": "co-operative",
+    "meaning": "Doing what you ask without complaining or arguing",
+    "meaning_VN": "hợp tác, cộng tác",
+    "wordClass": "adjective",
+    "family": ["cooperate", "cooperation", "cooperative"]
+  },
+  {
+    "word": "efficient",
+    "meaning": "Able to do tasks successfully, without wasting time or energy",
+    "meaning_VN": "hiệu quả",
+    "wordClass": "adjective",
+    "family": ["efficiency (n)", "efficiently (adv)", "inefficient (adj)"]
+  },
+  {
+    "word": "flexible",
+    "meaning": "Able to change easily and adapt to different conditions and circumstances",
+    "meaning_VN": "linh hoạt",
+    "wordClass": "adjective",
+    "family": ["flexibility", "flexibly"]
+  },
+  {
+    "word": "idealistic",
+    "meaning": "Having ideals and basing behavior on them, even if impractical",
+    "meaning_VN": "lý tưởng hóa",
+    "wordClass": "adjective",
+    "family": ["ideal", "idealism", "idealist"]
+  },
+  {
+    "word": "tolerant",
+    "meaning": "Allowing other people to say and do as they like, even if you don't agree with or like it",
+    "meaning_VN": "khoan dung, tha thứ",
+    "wordClass": "adjective",
+    "family": ["tolerance", "tolerate", "toleration"]
+  },
+  {
+    "word": "vulnerable",
+    "meaning": "Weak and without protection, with the result that they are easily hurt physically or emotionally",
+    "meaning_VN": "dễ bị tổn thương",
+    "wordClass": "adjective",
+    "family": ["vulnerability", "vulnerably"]
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "word": "address",
+    "meaning": "to deal with or discuss a problem, issue, or situation",
+    "meaning_VN": "giải quyết, đề cập đến",
+    "wordClass": "verb",
+    "family": ["addresses", "addressing", "addressed", "addressable (adj)"]
+  },
+  {
+    "word": "avoid",
+    "meaning": "to prevent something from happening or to not do something",
+    "meaning_VN": "tránh né",
+    "wordClass": "verb",
+    "family": ["avoids", "avoiding", "avoided", "avoidance (n)", "avoidable (adj)"]
+  },
+  {
+    "word": "demonstrate",
+    "meaning": "to show or prove something clearly by giving examples or evidence",
+    "meaning_VN": "chứng minh, minh họa",
+    "wordClass": "verb",
+    "family": ["demonstrates", "demonstrating", "demonstrated", "demonstration (n)", "demonstrative (adj)"]
+  },
+  {
+    "word": "develop",
+    "meaning": "to grow or improve so that it becomes more advanced or effective",
+    "meaning_VN": "phát triển",
+    "wordClass": "verb",
+    "family": ["develops", "developing", "developed", "development (n)", "developmental (adj)"]
+  },
+  {
+    "word": "evaluate",
+    "meaning": "to judge or determine the significance, worth, or quality of something",
+    "meaning_VN": "đánh giá",
+    "wordClass": "verb",
+    "family": ["evaluates", "evaluating", "evaluated", "evaluation (n)", "evaluative (adj)"]
+  },
+  {
+    "word": "gather",
+    "meaning": "to collect several things or a large amount of something together",
+    "meaning_VN": "thu thập, tập hợp",
+    "wordClass": "verb",
+    "family": ["gathers", "gathering", "gathered", "gathering (n)"]
+  },
+  {
+    "word": "offer",
+    "meaning": "to provide something or to propose something for someone to accept or reject",
+    "meaning_VN": "đề xuất, đề nghị",
+    "wordClass": "verb, noun",
+    "family": ["offers", "offering", "offered", "offering (n)"]
+  },
+  {
+    "word": "primarily",
+    "meaning": "mainly or for the most part",
+    "meaning_VN": "chủ yếu, trước hết",
+    "wordClass": "adverb",
+    "family": ["primary (adj)", "prime (adj)", "primacy (n)"]
+  },
+  {
+    "word": "risk",
+    "meaning": "the possibility that something bad, unpleasant, or dangerous may happen",
+    "meaning_VN": "rủi ro, nguy cơ",
+    "wordClass": "noun, verb",
+    "family": ["risks", "risking", "risked", "risky (adj)", "riskiness (n)"]
+  },
+  {
+    "word": "strategy",
+    "meaning": "a detailed plan designed to achieve a long-term aim or overall goal",
+    "meaning_VN": "chiến lược",
+    "wordClass": "noun",
+    "family": ["strategies", "strategic (adj)", "strategize (v)", "strategically (adv)"]
+  },
+  {
+    "word": "strong",
+    "meaning": "having great power, force, or effect",
+    "meaning_VN": "mạnh mẽ",
+    "wordClass": "adjective",
+    "family": ["stronger", "strongest", "strongly (adv)", "strength (n)"]
+  },
+  {
+    "word": "substitution",
+    "meaning": "the act of replacing one thing with another",
+    "meaning_VN": "sự thay thế",
+    "wordClass": "noun",
+    "family": ["substitute (v)", "substitute (n)", "substitutionary (adj)", "substitutable (adj)"]
+  }
+]

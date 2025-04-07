@@ -11,14 +11,14 @@
 		"meaning": "a journey on a large ship for pleasure",
 		"meaning_VN": "chuyến du lịch trên biển",
 		"wordClass": "noun",
-		"family": ["cruiser (n)", "cruising (adj)"]
+		"family": ["cruiser (n)", "cruising (n)", "cruise (v)"]
 	},
 	{
 		"word": "pack",
 		"meaning": "to put things into a bag or box",
 		"meaning_VN": "đóng gói, xếp đồ",
 		"wordClass": "verb",
-		"family": ["package (n)", "packing (n)"]
+		"family": ["package (n)", "packing (n)", "packed (adj)", "packer (n)"]
 	},
 	{
 		"word": "accommodation",
@@ -151,7 +151,7 @@
 		"meaning": "easy and suitable for a particular purpose",
 		"meaning_VN": "tiện lợi",
 		"wordClass": "adjective",
-		"family": ["convenience (n)"]
+		"family": ["convenience (n)", "conveniently (adv)", "inconvenient (adj)"]
 	},
 	{
 		"word": "journey",

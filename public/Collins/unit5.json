@@ -1,0 +1,100 @@
+[
+  {
+    "word": "angle",
+    "meaning": "the difference in direction between two lines or surfaces, measured in degrees",
+    "meaning_VN": "góc",
+    "wordClass": "noun",
+    "family": ["angles", "angular"]
+  },
+  {
+    "word": "circumference",
+    "meaning": "the distance around the edge of a circle, place, or round object",
+    "meaning_VN": "chu vi",
+    "wordClass": "noun",
+    "family": ["circumferential"]
+  },
+  {
+    "word": "diameter",
+    "meaning": "the length of a straight line that can be drawn across a round object, passing through the middle of it",
+    "meaning_VN": "đường kính",
+    "wordClass": "noun",
+    "family": ["diameters", "diametrical"]
+  },
+  {
+    "word": "height",
+    "meaning": "the size or length of a person or thing from the bottom to the top",
+    "meaning_VN": "chiều cao",
+    "wordClass": "noun",
+    "family": ["heights", "heighten"]
+  },
+  {
+    "word": "length",
+    "meaning": "the amount that something measures from one end to the other along the longest side",
+    "meaning_VN": "chiều dài",
+    "wordClass": "noun",
+    "family": ["lengths", "lengthen", "lengthy"]
+  },
+  {
+    "word": "radius",
+    "meaning": "the distance from a particular point in any direction, or a straight line from the center to the edge of a circle",
+    "meaning_VN": "bán kính",
+    "wordClass": "noun",
+    "family": ["radii", "radial"]
+  },
+  {
+    "word": "volume",
+    "meaning": "the amount of something that there is",
+    "meaning_VN": "thể tích, khối lượng",
+    "wordClass": "noun",
+    "family": ["volumes", "volumetric"]
+  },
+  {
+    "word": "width",
+    "meaning": "the distance something measures from one side or edge to the other",
+    "meaning_VN": "chiều rộng",
+    "wordClass": "noun",
+    "family": ["widths", "widen", "wide"]
+  },
+  {
+    "word": "adjust",
+    "meaning": "to get used to a new situation by changing your behavior or your ideas",
+    "meaning_VN": "điều chỉnh, thích nghi",
+    "wordClass": "verb",
+    "family": ["adjusts", "adjusting", "adjusted", "adjustment", "adjustable"]
+  },
+  {
+    "word": "convey",
+    "meaning": "to cause information or feelings to be known or understood by someone",
+    "meaning_VN": "truyền đạt",
+    "wordClass": "verb",
+    "family": ["conveys", "conveying", "conveyed", "conveyance"]
+  },
+  {
+    "word": "launch",
+    "meaning": "to make a new product available to the public",
+    "meaning_VN": "cho ra mắt",
+    "wordClass": "verb",
+    "family": ["launches", "launching", "launched"]
+  },
+  {
+    "word": "reinforce",
+    "meaning": "to make a feeling, situation, or process stronger or more intense",
+    "meaning_VN": "củng cố, tăng cường",
+    "wordClass": "verb",
+    "family": ["reinforces", "reinforcing", "reinforced", "reinforcement"]
+  },
+  {
+    "word": "secure",
+    "meaning": "to obtain something that you want or need, often after a lot of effort",
+    "meaning_VN": "bảo đảm, đạt được",
+    "wordClass": "verb",
+    "family": ["secures", "securing", "secured", "security", "securely"]
+  },
+  {
+    "word": "suspend",
+    "meaning": "to delay something or stop it from happening for a while or until a decision is made about it",
+    "meaning_VN": "đình chỉ, tạm ngưng",
+    "wordClass": "verb",
+    "family": ["suspends", "suspending", "suspended", "suspension"]
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "word": "accompany",
+    "meaning": "to go somewhere with someone",
+    "meaning_VN": "đi cùng, tháp tùng",
+    "wordClass": "verb",
+    "family": ["accompanies", "accompanying", "accompanied", "accompaniment"]
+  },
+  {
+    "word": "encounter",
+    "meaning": "to experience problems or difficulties",
+    "meaning_VN": "gặp phải, đối mặt với",
+    "wordClass": "verb",
+    "family": ["encounters", "encountering", "encountered"]
+  },
+  {
+    "word": "overcome",
+    "meaning": "to successfully deal with and control a problem or feeling",
+    "meaning_VN": "vượt qua, khắc phục",
+    "wordClass": "verb",
+    "family": ["overcomes", "overcoming", "overcame", "overcome"]
+  },
+  {
+    "word": "reschedule",
+    "meaning": "to change the time at which an event is supposed to happen",
+    "meaning_VN": "sắp xếp lại lịch",
+    "wordClass": "verb",
+    "family": ["reschedules", "rescheduling", "rescheduled"]
+  },
+  {
+    "word": "seek",
+    "meaning": "to try to find or obtain something",
+    "meaning_VN": "tìm kiếm, mưu cầu",
+    "wordClass": "verb",
+    "family": ["seeks", "seeking", "sought"]
+  },
+  {
+    "word": "venture",
+    "meaning": "to go somewhere that might be dangerous",
+    "meaning_VN": "liều lĩnh đi đến",
+    "wordClass": "verb",
+    "family": ["ventures", "venturing", "ventured", "venturesome"]
+  },
+  {
+    "word": "challenge",
+    "meaning": "something new and difficult which requires great effort and determination",
+    "meaning_VN": "thử thách, thách thức",
+    "wordClass": "noun",
+    "family": ["challenges", "challenging", "challenged"]
+  },
+  {
+    "word": "destination",
+    "meaning": "the place to which someone or something is going or being sent",
+    "meaning_VN": "điểm đến",
+    "wordClass": "noun",
+    "family": ["destinations", "destined"]
+  },
+  {
+    "word": "itinerary",
+    "meaning": "a plan of a journey, including the route and the places that you will visit",
+    "meaning_VN": "lịch trình",
+    "wordClass": "noun",
+    "family": ["itineraries"]
+  },
+  {
+    "word": "journey",
+    "meaning": "travel from one place to another",
+    "meaning_VN": "hành trình, chuyến đi",
+    "wordClass": "noun",
+    "family": ["journeys", "journeying", "journeyed"]
+  },
+  {
+    "word": "dreary",
+    "meaning": "dull and depressing",
+    "meaning_VN": "ảm đạm, buồn tẻ",
+    "wordClass": "adjective",
+    "family": ["dreariness", "drearily"]
+  },
+  {
+    "word": "intense",
+    "meaning": "very great or extreme in strength or degree",
+    "meaning_VN": "mãnh liệt, dữ dội",
+    "wordClass": "adjective",
+    "family": ["intensity", "intensely", "intensify"]
+  },
+  {
+    "word": "pivotal",
+    "meaning": "very important and affecting the success of something",
+    "meaning_VN": "then chốt, quan trọng",
+    "wordClass": "adjective",
+    "family": ["pivot", "pivotally"]
+  },
+  {
+    "word": "profound",
+    "meaning": "very great or intense",
+    "meaning_VN": "sâu sắc, thâm thúy",
+    "wordClass": "adjective",
+    "family": ["profoundly", "profoundness"]
+  },
+  {
+    "word": "valuable",
+    "meaning": "very useful and helpful",
+    "meaning_VN": "có giá trị, quý giá",
+    "wordClass": "adjective",
+    "family": ["value", "valuation", "invaluable"]
+  }
+]
