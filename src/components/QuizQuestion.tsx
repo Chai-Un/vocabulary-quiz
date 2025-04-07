@@ -42,9 +42,6 @@ const QuizQuestion = ({
                   <div className="option-title">
                     {String.fromCharCode(65 + optIndex)}. <strong>{option.meaning}</strong>
                   </div>
-                  <p className="option-family">
-                    Family words: {option.family.join(', ') || 'None'}
-                  </p>
                 </div>
               </div>
             </div>

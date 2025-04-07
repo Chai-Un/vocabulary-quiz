@@ -46,6 +46,6 @@ export const getRandomItems = <T>(arr: T[], num: number): T[] => {
   return shuffled.slice(0, num);
 };
 
-export const calculateScore = (totalQuestions: number, correctAnswers: number): number => {
-  return Math.round((correctAnswers / totalQuestions) * 100);
+export const calculateScore = (totalQuestions: number, totalCorrectAnswer: number): number => {
+  return Math.round((totalCorrectAnswer / totalQuestions) * 100);
 };

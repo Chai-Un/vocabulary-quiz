@@ -20,9 +20,10 @@ const QuizApp = ({ vocabularyData, onReturnHome }: QuizAppProps) => {
   const [showResults, setShowResults] = useState<boolean>(false);
   const [quizResult, setQuizResult] = useState<QuizResult>({
     totalQuestions: 0,
-    correctAnswers: 0,
+    totalCorrectAnswer: 0,
     wrongAnswers: 0,
     score: 0,
+    correctAnswers: [],
     incorrectAnswers: [],
     unansweredQuestions: [],
   });
@@ -71,6 +72,7 @@ const QuizApp = ({ vocabularyData, onReturnHome }: QuizAppProps) => {
   const handleSubmitQuiz = () => {
     const incorrectAnswers: Vocabulary[] = [];
     const unansweredQuestions: Vocabulary[] = [];
+    const correctAnswers: Vocabulary[] = [];
     let correctCount = 0;
 
     questions.forEach((question, index) => {
@@ -82,6 +84,7 @@ const QuizApp = ({ vocabularyData, onReturnHome }: QuizAppProps) => {
       }
 
       if (selectedAnswer === question.correctAnswer) {
+        correctAnswers.push(question.wordData);
         correctCount++;
       } else {
         incorrectAnswers.push(question.wordData);
@@ -92,9 +95,10 @@ const QuizApp = ({ vocabularyData, onReturnHome }: QuizAppProps) => {
 
     setQuizResult({
       totalQuestions: questions.length,
-      correctAnswers: correctCount,
+      totalCorrectAnswer: correctCount,
       wrongAnswers: incorrectAnswers.length,
       score,
+      correctAnswers,
       incorrectAnswers,
       unansweredQuestions,
     });
