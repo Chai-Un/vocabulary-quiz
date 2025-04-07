@@ -146,13 +146,13 @@ const ResultScreen = ({ result, visible, onClose, onRetry }: ResultScreenProps) 
         <Divider style={{ margin: '10px 0' }} />
 
         <Row gutter={16} className="lists-container">
-          <Col
-            xs={columnSpans.xs}
-            md={columnSpans.md}
-            xl={columnSpans.xl}
-            className="correct-answers-col"
-          >
-            {result.totalCorrectAnswer > 0 && (
+          {result.totalCorrectAnswer > 0 && (
+            <Col
+              xs={columnSpans.xs}
+              md={columnSpans.md}
+              xl={columnSpans.xl}
+              className="correct-answers-col"
+            >
               <div className="answers-section">
                 <Title level={5} className="section-title text-success">
                   Correct Answers
@@ -171,8 +171,9 @@ const ResultScreen = ({ result, visible, onClose, onRetry }: ResultScreenProps) 
                   ))}
                 </div>
               </div>
-            )}
-          </Col>
+            </Col>
+          )}
+
           {result.incorrectAnswers.length > 0 && (
             <Col
               xs={columnSpans.xs}
